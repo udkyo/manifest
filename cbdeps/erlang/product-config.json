@@ -1,5 +1,15 @@
 {
     "manifests": {
+        "cbdeps/erlang/24.1.6.xml": {
+            "release_name": "erlang 24.1.6",
+            "production": true,
+            "restricted": false,
+            "start_build": 1,
+            "jenkins_server": "server.jenkins.couchbase.com",
+            "jenkins_job": "no-op-build",
+            "do-build": false,
+            "keep_git": true
+        },
         "cbdeps/erlang/neo.xml": {
             "release": "neo",
             "release_name": "erlang neo",
