@@ -40,15 +40,27 @@
         },
         "couchbase-server/neo.xml": {
             "release": "neo",
-            "release_name": "Neo (7.2.3)",
+            "release_name": "Neo (7.2.4)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 6600,
+            "start_build": 6900,
             "trigger_blackduck": true,
             "interval": 117,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-57829"
+        },
+        "couchbase-server/neo/7.2.3.xml": {
+            "release": "neo",
+            "release_name": "Neo (7.2.3)",
+            "parent": "couchbase-server/neo.xml",
+            "production": true,
+            "start_build": 6700,
+            "trigger_blackduck": true,
+            "interval": 119,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-59178"
         },
         "couchbase-server/neo/7.2.2.xml": {
             "release": "neo",
