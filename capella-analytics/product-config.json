@@ -3,7 +3,7 @@
         "capella-analytics/main.xml": {
             "production": true,
             "start_build": 1000,
-            "trigger_blackduck": false,
+            "trigger_blackduck": true,
             "interval": 1430,
             "keep_git": true
         }
