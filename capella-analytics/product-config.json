@@ -4,7 +4,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": true,
-            "interval": 1430,
+            "interval": 222,
             "keep_git": true
         }
     }
