@@ -66,6 +66,12 @@
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="notdefault,enterprise,analytics"/>
 
+  <!-- Third-party projects -->
+  <!-- For the time being, we are consuming this directly from blevesearch. -->
+  <!-- After the initial development period (and well before GA), we'll lock -->
+  <!-- this to SHA like other bleve dependencies. MB-58902 -->
+  <project name="faiss" revision="bleve" remote="blevesearch" groups="notdefault,enterprise"/>
+
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
   <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty"/>
