@@ -13,10 +13,10 @@
   <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" remote="abhinavdangeti" revision="temp"/>
-  <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="trinity"/>
+  <project name="cbft" remote="abhinavdangeti" revision="76_vs"/>
+  <project name="cbftx" remote="abhinavdangeti" groups="notdefault,enterprise" revision="76_vs"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="cbgt" remote="abhinavdangeti" revision="temp"/>
+  <project name="cbgt" revision="trinity"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli" groups="kv"/>
   <project name="couchdb" dest-branch="unstable"/>
@@ -31,8 +31,8 @@
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" dest-branch="unstable" groups="bsl"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" dest-branch="unstable" groups="bsl"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" dest-branch="unstable" groups="bsl,notdefault,enterprise"/>
-  <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
-  <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
+  <project name="eventing" revision="trinity" path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
+  <project name="eventing-ee" revision="trinity" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.3.8"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
@@ -42,8 +42,8 @@
   <project name="phosphor" groups="bsl,kv"/>
   <project name="platform" groups="bsl,kv"/>
   <project name="product-texts"/>
-  <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl"/>
+  <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="trinity"/>
+  <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl" remote="abhinavdangeti" revision="76_vs"/>
   <project name="query-ui" groups="bsl"/>
   <project name="regulator" revision="main" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" groups="kv"/>
@@ -66,15 +66,21 @@
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" revision="trinity" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="notdefault,enterprise,analytics"/>
 
+  <!-- Third-party projects -->
+  <!-- For the time being, we are consuming this directly from blevesearch. -->
+  <!-- After the initial development period (and well before GA), we'll lock -->
+  <!-- this to SHA like other bleve dependencies. MB-58902 -->
+  <project name="faiss" revision="bleve" remote="blevesearch" groups="notdefault,enterprise"/>
+
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="trinity"/>
-  <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json"/>
-  <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup"/>
+  <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty" groups="bsl" remote="abhinavdangeti" revision="76_vs"/>
+  <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json" revision="trinity"/>
+  <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="trinity"/>
   <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth" groups="backup"/>
-  <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
-  <project name="goutils"                                                            path="goproj/src/github.com/couchbase/goutils" groups="bsl"/>
-  <project name="godbc"                                                              path="goproj/src/github.com/couchbase/godbc"/>
+  <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup" revision="trinity"/>
+  <project name="goutils"                                                            path="goproj/src/github.com/couchbase/goutils" groups="bsl" revision="trinity"/>
+  <project name="godbc"                                                              path="goproj/src/github.com/couchbase/godbc" revision="trinity"/>
 
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog"/>
   <project name="gocb"           revision="refs/tags/v2.2.5"                         path="godeps/src/github.com/couchbase/gocb/v2"/>
