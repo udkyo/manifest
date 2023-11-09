@@ -19,7 +19,7 @@
     <annotation name="BSL_CHANGE_DATE" value="November 1, 2027"/>
   </project>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" revision="d130f9045625800de216752f71f2dabf400e63cb" upstream="trinity" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="fd8b161c42c09d1671ec42c035bd53bac0dbad91" upstream="trinity" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" revision="91e59ca5cbc0eae02aa7ef23b110d045ec401e68" upstream="trinity" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" revision="3176d55d4eb32144f5a91f6ac49262bf29e22c0c" upstream="master" groups="notdefault,enterprise,analytics"/>
   <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" revision="563521a44b28fe4dbaffc2fc13c3e40c16572dc4" upstream="master" groups="backup"/>
   <project name="cbbs" remote="couchbase-priv" revision="325c2dbce3f2c337ce93f6b1d299cbce33ec4fd4" upstream="master" groups="backup,notdefault,enterprise"/>
@@ -90,7 +90,7 @@
   <project name="simdutf" path="third_party/simdutf" remote="couchbasedeps" revision="4a212616ba23c65c7048f9604faccbff5353300f" upstream="refs/tags/v3.2.14" groups="kv"/>
   <project name="subjson" revision="4b93d966f791209209a0825e46f7049df0673e8f" upstream="master" groups="bsl,kv"/>
   <project name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="d36c6a25d886e7c9975d5bf247ac24887ba6da37"/>
-  <project name="testrunner" revision="9e3b3a7ac8f842ee01d477f9a355061f7844a547" upstream="master"/>
+  <project name="testrunner" revision="36c8f895acdc0c9b8b8cb46b39f0bd53331bb848" upstream="master"/>
   <project name="tlm" revision="59ca635c88fb4fa5ddc26b91d283bd398e395649" upstream="master" groups="bsl,kv">
     <copyfile src="Build.sh" dest="Build.sh"/>
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
