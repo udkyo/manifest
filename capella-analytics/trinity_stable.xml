@@ -64,7 +64,7 @@
   <project name="hebrew" remote="couchbase-priv" revision="c57616b187889a5318688f49817ccaceb9c098b9" upstream="master" groups="notdefault,enterprise"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="7a20e72d7250265d37f34aa8e6137b040c27f7e1" upstream="master" dest-branch="unstable" groups="bsl"/>
   <project name="jsonschema" path="godeps/src/github.com/santhosh-tekuri/jsonschema" remote="couchbasedeps" revision="137f44a49015e5060a447c331aa37de6e0f50267"/>
-  <project name="kv_engine" revision="465b192061d28c8b16633d05ac3f8f36afe72c1b" upstream="master" groups="kv,bsl"/>
+  <project name="kv_engine" revision="67f3ed0842c2b676493e8dbe8e35264ab89aec21" upstream="master" groups="kv,bsl"/>
   <project name="libcouchbase" revision="6e411d412ba3f5039d21ea4195dca86b0f82134b" upstream="refs/tags/3.3.8"/>
   <project name="magma" remote="couchbase-priv" revision="37f1b784e7b1f01ae995b02dead3a40a0c141cae" upstream="master" groups="notdefault,enterprise,kv_ee"/>
   <project name="mux" path="godeps/src/github.com/gorilla/mux" remote="couchbasedeps" revision="043ee6597c29786140136a5747b6a886364f5282"/>
@@ -90,7 +90,7 @@
   <project name="simdutf" path="third_party/simdutf" remote="couchbasedeps" revision="4a212616ba23c65c7048f9604faccbff5353300f" upstream="refs/tags/v3.2.14" groups="kv"/>
   <project name="subjson" revision="4b93d966f791209209a0825e46f7049df0673e8f" upstream="master" groups="bsl,kv"/>
   <project name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="d36c6a25d886e7c9975d5bf247ac24887ba6da37"/>
-  <project name="testrunner" revision="36c8f895acdc0c9b8b8cb46b39f0bd53331bb848" upstream="master"/>
+  <project name="testrunner" revision="62d5ad05eb7d83f2c41e6fd9ba502a2c73c614b9" upstream="master"/>
   <project name="tlm" revision="59ca635c88fb4fa5ddc26b91d283bd398e395649" upstream="master" groups="bsl,kv">
     <copyfile src="Build.sh" dest="Build.sh"/>
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
