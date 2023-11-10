@@ -90,7 +90,7 @@
   <project name="simdutf" path="third_party/simdutf" remote="couchbasedeps" revision="4a212616ba23c65c7048f9604faccbff5353300f" upstream="refs/tags/v3.2.14" groups="kv"/>
   <project name="subjson" revision="4b93d966f791209209a0825e46f7049df0673e8f" upstream="master" groups="bsl,kv"/>
   <project name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="d36c6a25d886e7c9975d5bf247ac24887ba6da37"/>
-  <project name="testrunner" revision="62d5ad05eb7d83f2c41e6fd9ba502a2c73c614b9" upstream="master"/>
+  <project name="testrunner" revision="84efd86da244dcf777af921d7b4bf2fca413dfe6" upstream="master"/>
   <project name="tlm" revision="22e3b5d2fae22e52b19c2910cd5bd201fbf8e7df" upstream="master" groups="bsl,kv">
     <copyfile src="Build.sh" dest="Build.sh"/>
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
