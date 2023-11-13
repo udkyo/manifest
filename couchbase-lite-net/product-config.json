@@ -35,7 +35,7 @@
              "module_projects": [
                 "couchbase-lite-net-ee",
                 "couchbase-lite-net",
-                "couchbase-lite-core-ee",
+                "couchbase-lite-core-EE",
                 "couchbase-lite-core"
              ]
          },
