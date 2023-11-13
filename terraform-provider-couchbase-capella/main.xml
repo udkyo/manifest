@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbasecloud-priv" fetch="ssh://git@github.com/couchbasecloud/" />
+  <remote name="couchbase" fetch="https://github.com/couchbase" review="review.couchbase.org" />
+
+  <default remote="couchbasecloud-priv" revision="main"/>
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Main source: Supported by Couchbase Analytics team -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="terraform-provider-couchbase-capella" revision="main" />
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - build scripts, etc.                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="build" revision="c1b485bbf14aa1176be5ea26b7982f4002188429" remote="couchbase">
+    <annotation name="VERSION" value="1.0.0" keep="true"/>
+  </project>
+</manifest>
