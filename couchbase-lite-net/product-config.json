@@ -24,6 +24,21 @@
                 "couchbase-lite-net"
             ]
         },
+         "couchbase-lite-net/helium/3.1.3-vf001.xml": {
+             "release_name": "Couchbase Lite Net - 3.1.3vf001",
+             "production": true,
+             "interval": 1440,
+             "restricted": false,
+             "start_build": 1,
+             "keep_git": true,
+             "trigger_blackduck": false,
+             "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net",
+                "couchbase-lite-core-ee",
+                "couchbase-lite-core"
+             ]
+         },
         "couchbase-lite-net/lithium.xml": {
             "release_name": "Couchbase Lite Net - Lithium",
             "production": true,
