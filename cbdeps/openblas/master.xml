@@ -8,7 +8,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="OpenBLAS" path="openblas" remote="couchbasedeps" revision="refs/tags/v0.3.24"/>
+  <project name="OpenBLAS" path="openblas" remote="couchbasedeps" revision="refs/tags/v0.3.25"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
