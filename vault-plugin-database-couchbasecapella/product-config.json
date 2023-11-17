@@ -3,10 +3,10 @@
         "vault-plugin-database-couchbasecapella/main.xml": {
             "release_name": "Vault Plugin Database Couchbase capella (main branch)",
             "production": true,
-            "interval": 1452,
+            "interval": 60,
             "restricted": false,
             "start_build": 1,
-            "trigger_blackduck": false,
+            "trigger_blackduck": true,
             "do-build": true,
             "keep_git": true
         }
