@@ -94,7 +94,7 @@
   <project name="go-metrics" remote="couchbasedeps" revision="dee209f2455f101a5e4e593dea94872d2c62d85d" path="godeps/src/github.com/rcrowley/go-metrics"/>
   <project name="golang-snappy" remote="couchbasedeps" revision="723cc1e459b8eea2dea4583200fd60757d40097a" path="godeps/src/github.com/golang/snappy"/>
   <project name="golang-tools" remote="couchbasedeps" revision="a28dfb48e06b2296b66678872c2cb638f0304f20" path="godeps/src/golang.org/x/tools"/>
-  <project name="crypto" remote="couchbasedeps" revision="630584e8d5aaa1472863b49679b2d5548d80dcba" path="godeps/src/golang.org/x/crypto"/>
+  <project name="crypto" remote="couchbasedeps" revision="refs/tags/v0.15.0" path="godeps/src/golang.org/x/crypto"/>
   <project name="sys" remote="couchbasedeps" revision="d36c6a25d886e7c9975d5bf247ac24887ba6da37" path="godeps/src/golang.org/x/sys"/>
   <project name="mmap-go" remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" path="godeps/src/github.com/edsrzf/mmap-go"/>
   <project name="mousetrap" remote="couchbasedeps" revision="76626ae9c91c4f2a10f34cad8ce83ea42c93bb75" path="godeps/src/github.com/inconshreveable/mousetrap"/>
