@@ -81,7 +81,7 @@
   <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup"/>
   <project name="goutils"                                                            path="goproj/src/github.com/couchbase/goutils" groups="bsl"/>
   <project name="godbc"                                                              path="goproj/src/github.com/couchbase/godbc"/>
-  <project name="go-faiss"                                                           path="godeps/src/github.com/blevesearch/go-faiss"/>
+  <project name="go-faiss"       remote="blevesearch"                                path="godeps/src/github.com/blevesearch/go-faiss"/>
 
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog"/>
   <project name="gocb"           revision="refs/tags/v2.2.5"                         path="godeps/src/github.com/couchbase/gocb/v2"/>
