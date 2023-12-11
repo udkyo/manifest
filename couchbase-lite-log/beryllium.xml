@@ -26,16 +26,16 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="fleece" remote="couchbase" revision="33710241d9115620ff89567bc59060041f9f3394" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbase" revision="e5115d370073b712c25625eb3105991f56d12fd5" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="peg" remote="snej" revision="5722a4b087e58d5cc93ed13fc18e2530948498c1" path="couchbase-mobile-tools/vendor/peg"/>
-  <project name="sqlite3-unicodesn" remote="couchbasedeps" revision="9e0b20dfa4618c95a039bb5eaa7c40a70e0e1597" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
+  <project name="sqlite3-unicodesn" remote="couchbasedeps" revision="56f70205de560e96a6ef4766839e4fa67e0d0749" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
   <project name="litecore-download-script" remote="couchbaselabs" revision="93274f9fb0936af0b754a408154a2a24d2dd0041" path="couchbase-mobile-tools/vendor/couchbase-lite-core/tools"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="couchbasedeps" revision="c2aae8d4cf4710ff5944d7c85abb351b035572c0" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/mbedtls"/>
+  <project name="mbedtls" remote="couchbasedeps" revision="f4335b174661cdc8f87cbadbfd3f3e7b604f6750" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/mbedtls"/>
   <project name="linenoise-mob" remote="couchbasedeps" revision="8631d28ef0271ff29e041dbe459602c04fe8bc2c" path="couchbase-mobile-tools/vendor/linenoise-mob"/>
   <project name="ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/ios-cmake"/>
   <project name="sockpp" remote="couchbasedeps" revision="01c7560ed14bf5a935f7e899f9eb4f72f7403d5d" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sockpp"/>
