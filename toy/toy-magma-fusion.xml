@@ -64,9 +64,9 @@
   <project name="hebrew" remote="couchbase-priv" revision="c57616b187889a5318688f49817ccaceb9c098b9" upstream="master" dest-branch="master" groups="notdefault,enterprise"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="221d85f0e5cce57478cb466d7769b39bd7ae2cf5" upstream="master" dest-branch="unstable" groups="bsl"/>
   <project name="jsonschema" path="godeps/src/github.com/santhosh-tekuri/jsonschema" remote="couchbasedeps" revision="137f44a49015e5060a447c331aa37de6e0f50267"/>
-  <project name="kv_engine" revision="04377158caf760401b197fb89742efd16083c0fb" upstream="master" dest-branch="master" groups="kv,bsl"/>
+  <project name="kv_engine" upstream="master" dest-branch="master" groups="kv,bsl"/>
   <project name="libcouchbase" revision="6e411d412ba3f5039d21ea4195dca86b0f82134b" upstream="refs/tags/3.3.8" dest-branch="refs/tags/3.3.8"/>
-  <project name="magma" remote="couchbase-priv" revision="5825548ed229c4b4bd4f0b783a5be536051d11ea" upstream="master" dest-branch="master" groups="notdefault,enterprise,kv_ee"/>
+  <project name="magma" remote="couchbase-priv" upstream="master" dest-branch="master" groups="notdefault,enterprise,kv_ee"/>
   <project name="mux" path="godeps/src/github.com/gorilla/mux" remote="couchbasedeps" revision="043ee6597c29786140136a5747b6a886364f5282"/>
   <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" revision="808ff2b02acf384296f5fa616b25e5475138ef48" upstream="trinity" dest-branch="trinity" groups="bsl"/>
   <project name="nitro" path="goproj/src/github.com/couchbase/nitro" revision="b70d849f0207f7cfe7ebf32b2db35b534929e041" upstream="master" dest-branch="unstable" groups="bsl"/>
