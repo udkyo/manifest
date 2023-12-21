@@ -71,7 +71,7 @@
   <!-- this to SHA like other bleve dependencies. MB-58902 -->
   <project name="faiss" revision="bleve" remote="blevesearch" groups="notdefault,enterprise"/>
 
-  <project name="zapx"  remote="blevesearch" revision="8b3e57c9817ab129a751f4893dea1100974d9edd" path="godeps/src/github.com/blevesearch/zapx"/>
+  <project name="zapx"  remote="blevesearch" revision="2cc4eef3fd1433f03e9f352ad029e03e16d1a228" path="godeps/src/github.com/blevesearch/zapx"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
