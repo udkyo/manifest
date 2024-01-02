@@ -25,7 +25,7 @@
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
   <project name="forestdb" revision="cb-master" groups="backup"/>
   <project name="geocouch"/>
-  <project name="goxdcr" revision="trinity" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl"/>
+  <project name="goxdcr" revision="7.6.0" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl"/>
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" dest-branch="unstable" groups="bsl"/>
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" dest-branch="unstable" groups="bsl"/>
@@ -35,7 +35,7 @@
   <project name="kv_engine" groups="kv,bsl"/>
   <project name="libcouchbase" revision="refs/tags/3.3.11"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
-  <project name="ns_server" revision="trinity" groups="bsl"/>
+  <project name="ns_server" revision="7.6.0" groups="bsl"/>
   <project name="chronicle" revision="7de1bde10de09979908c30813d88fe2d73b425ed" path="ns_server/deps/chronicle"/>
   <project name="vbmap"/>
   <project name="phosphor" groups="bsl,kv"/>
@@ -117,7 +117,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="7.6.1"     keep="true"/>
+    <annotation name="VERSION" value="7.6.0"     keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server" keep="true"/>
     <annotation name="BSL_VERSION" value="Trinity" keep="true"/>
     <annotation name="BSL_CHANGE_DATE" value="November 1, 2027" keep="true"/>
