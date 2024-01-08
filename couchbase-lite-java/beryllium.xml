@@ -17,8 +17,8 @@
   <!-- Couchbase-owned Java-language repositories         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java"/>
-  <project remote="couchbaselabs" name="couchbase-lite-java-tools" path="cbl-java/etc" revision="df3c0c5ceb7c859e2b83c4e35dc3eb8c2108aa3c"/>
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="4d7418d7be7df66175c567a019188db4e8663810"/>
+  <project remote="couchbaselabs" name="couchbase-lite-java-tools" path="cbl-java/etc" revision="5b5d8f8b2743037991bc24784a0f85be9f187ea1"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="04ca16f699b9a955e9e97e3f5306c2e9e253a15a"/>
   <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="121e2b024cf8df6ed138f051e3af219e668d17d5"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
