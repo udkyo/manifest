@@ -118,9 +118,6 @@
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
     <annotation name="VERSION" value="7.6.1"     keep="true"/>
-    <annotation name="BSL_PRODUCT" value="Couchbase Server" keep="true"/>
-    <annotation name="BSL_VERSION" value="Trinity" keep="true"/>
-    <annotation name="BSL_CHANGE_DATE" value="November 1, 2027" keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />

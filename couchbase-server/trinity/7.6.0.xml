@@ -41,8 +41,8 @@
   <project name="phosphor" groups="bsl,kv"/>
   <project name="platform" groups="bsl,kv"/>
   <project name="product-texts"/>
-  <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="trinity"/>
-  <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl" revision="trinity"/>
+  <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="7.6.0"/>
+  <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl" revision="7.6.0"/>
   <project name="query-ui" groups="bsl"/>
   <project name="regulator" revision="main" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" groups="kv"/>
@@ -74,12 +74,12 @@
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
   <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="trinity"/>
-  <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json" revision="trinity"/>
-  <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="trinity"/>
+  <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json" revision="7.6.0"/>
+  <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="7.6.0"/>
   <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth" groups="backup"/>
-  <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup" revision="trinity"/>
-  <project name="goutils"                                                            path="goproj/src/github.com/couchbase/goutils" groups="bsl" revision="trinity"/>
-  <project name="godbc"                                                              path="goproj/src/github.com/couchbase/godbc" revision="trinity"/>
+  <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup" revision="7.6.0"/>
+  <project name="goutils"                                                            path="goproj/src/github.com/couchbase/goutils" groups="bsl" revision="7.6.0"/>
+  <project name="godbc"                                                              path="goproj/src/github.com/couchbase/godbc" revision="7.6.0"/>
 
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog"/>
   <project name="gocb"           revision="refs/tags/v2.2.5"                         path="godeps/src/github.com/couchbase/gocb/v2"/>
@@ -119,8 +119,8 @@
   <project name="build"      path="cbbuild"           groups="notdefault,build">
     <annotation name="VERSION" value="7.6.0"     keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server" keep="true"/>
-    <annotation name="BSL_VERSION" value="Trinity" keep="true"/>
-    <annotation name="BSL_CHANGE_DATE" value="November 1, 2027" keep="true"/>
+    <annotation name="BSL_VERSION" value="7.6" keep="true"/>
+    <annotation name="BSL_CHANGE_DATE" value="March 1, 2028" keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
