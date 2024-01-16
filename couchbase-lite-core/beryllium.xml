@@ -3,6 +3,7 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs" review="review.couchbase.org"/>
   <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
   <remote name="snej" fetch="https://github.com/snej/"/>
   <remote name="google" fetch="https://github.com/google/"/>
@@ -16,6 +17,7 @@
        <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="mobile-vector-search" remote="couchbaselabs-priv" groups="notdefault,enterprise" revision="main" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
@@ -35,6 +37,8 @@
   <project name="zlib" remote="couchbasedeps" revision="04f42ceca40f73e2978b50e93806c2a18c1281fc" path="couchbase-lite-core/vendor/zlib"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="88214f799fe7df8a7ad4470409f11aa7944d3e51" path="couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
+  <project name="faiss" remote="couchbasedeps" revision="d87888b13e7eb339bb9c45825e9d20def6665171" path="mobile-vector-search/vendor/faiss"/>
+  <project name="ios-cmake" remote="couchbasedeps" revision="06465b27698424cf4a04a5ca4904d50a3c966c45" path="mobile-vector-search/vendor/ios-cmake"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
