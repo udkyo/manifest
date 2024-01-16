@@ -47,9 +47,7 @@
              "trigger_blackduck": false,
              "module_projects": [
                 "couchbase-lite-net-ee",
-                "couchbase-lite-net",
-                "couchbase-lite-core-EE",
-                "couchbase-lite-core"
+                "couchbase-lite-net"
              ]
          },
         "couchbase-lite-net/lithium.xml": {
