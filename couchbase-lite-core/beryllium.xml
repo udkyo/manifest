@@ -17,7 +17,7 @@
        <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="mobile-vector-search" remote="couchbaselabs-priv" groups="notdefault,enterprise" revision="main" />
+  <project name="mobile-vector-search" remote="couchbaselabs-priv" groups="notdefault,enterprise" revision="main"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
