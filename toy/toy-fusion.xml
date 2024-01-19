@@ -2,6 +2,7 @@
 <manifest>
   <remote name="couchbase"     fetch="https://github.com/couchbase/"         review="review.couchbase.org" />
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
+  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/"    review="review.couchbase.org" />
   <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="https://github.com/blevesearch/" />
@@ -35,7 +36,7 @@
   <project name="kv_engine" groups="kv"/>
   <project name="libcouchbase" revision="refs/tags/3.3.11"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" revision="fusionfs" remote="couchbase-priv" />
-  <project name="fusion" groups="notdefault,enterprise" revision="main" remote="couchbaselabs" />
+  <project name="fusion" groups="notdefault,enterprise" revision="main" remote="couchbaselabs-priv" />
   <project name="ns_server"/>
   <project name="chronicle" revision="914d26d323c8275e667dd441e645a5bad25e0903" path="ns_server/deps/chronicle"/>
   <project name="vbmap"/>
