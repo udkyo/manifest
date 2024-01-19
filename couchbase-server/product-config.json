@@ -81,7 +81,7 @@
             "production": true,
             "start_build": 6700,
             "trigger_blackduck": true,
-            "interval": 119,
+            "interval": 1508,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-59617"
@@ -93,7 +93,7 @@
             "production": true,
             "start_build": 6400,
             "trigger_blackduck": true,
-            "interval": 119,
+            "interval": 1527,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-58730"
@@ -105,7 +105,7 @@
             "production": true,
             "start_build": 5000,
             "trigger_blackduck": true,
-            "interval": 119,
+            "interval": 1519,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-56561"
@@ -118,6 +118,7 @@
             "start_build": 5000,
             "trigger_blackduck": true,
             "interval": 1447,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-57681"
@@ -129,7 +130,7 @@
             "production": true,
             "start_build": 3950,
             "trigger_blackduck": true,
-            "interval": 145,
+            "interval": 1498,
             "do-build": true,
             "keep_git": true,
             "restricted": true,
@@ -143,7 +144,7 @@
             "start_build": 3800,
             "trigger_blackduck": true,
             "interval": 1489,
-            "do-build": true,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-58798"
@@ -156,7 +157,7 @@
             "start_build": 3630,
             "trigger_blackduck": true,
             "interval": 1449,
-            "do-build": true,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-57406"
@@ -169,7 +170,7 @@
             "start_build": 3470,
             "trigger_blackduck": true,
             "interval": 1446,
-            "do-build": true,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-55057"
@@ -182,7 +183,7 @@
             "start_build": 3300,
             "trigger_blackduck": true,
             "interval": 1502,
-            "do-build": true,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-55432"
@@ -195,6 +196,7 @@
             "start_build": 1000,
             "trigger_blackduck": true,
             "interval": 1501,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-52510"
@@ -231,7 +233,7 @@
             "production": true,
             "start_build": 7649,
             "trigger_blackduck": true,
-            "interval": 125,
+            "interval": 1604,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-56304"
@@ -244,6 +246,7 @@
             "start_build": 7285,
             "trigger_blackduck": true,
             "interval": 1445,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-48997"
@@ -411,6 +414,7 @@
             "start_build": 3300,
             "trigger_blackduck": false,
             "interval": 1440,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-43894"
