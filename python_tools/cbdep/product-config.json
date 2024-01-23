@@ -1,7 +1,6 @@
 {
     "manifests": {
         "python_tools/cbdep/master.xml": {
-            "release_name": "cbdep mainline",
             "production": true,
             "restricted": false,
             "start_build": 1,
