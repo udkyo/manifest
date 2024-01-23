@@ -9,15 +9,15 @@
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
-  <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
+  <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise" revision="trinity"/>
+  <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise" revision="trinity"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
   <project name="cbft" revision="trinity"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="trinity"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="cbgt" revision="trinity"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
-  <project name="couchbase-cli" groups="kv"/>
+  <project name="couchbase-cli" groups="kv" revision="trinity"/>
   <project name="couchdb" dest-branch="unstable"/>
   <project name="couchstore" revision="trinity" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
