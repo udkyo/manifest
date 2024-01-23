@@ -1,0 +1,16 @@
+{
+    "manifests": {
+         "couchbase-lite-vector-search/master.xml": {
+             "release_name": "Couchbase Lite Vector Search - vNext",
+             "production": true,
+             "interval": 90,
+             "restricted": false,
+             "start_build": 1,
+             "keep_git": true,
+             "trigger_blackduck": false,
+             "module_projects": [
+                 "mobile-vector-search"
+             ]
+         }
+    }
+}
