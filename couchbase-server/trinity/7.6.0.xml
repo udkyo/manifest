@@ -18,7 +18,7 @@
   <project name="cbgt" revision="trinity"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli" groups="kv" revision="trinity"/>
-  <project name="couchdb" dest-branch="unstable"/>
+  <project name="couchdb" revision="8204af28a6217192e099b40444e1dd8d6f1767ee" dest-branch="unstable"/>
   <project name="couchstore" revision="trinity" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
