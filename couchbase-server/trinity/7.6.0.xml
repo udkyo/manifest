@@ -47,7 +47,7 @@
   <project name="regulator" revision="main" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="bsl,kv"/>
-  <project name="testrunner"/>
+  <project name="testrunner" revision="trinity"/>
   <project name="tlm" groups="bsl,kv" revision="trinity">
     <copyfile src="Build.sh" dest="Build.sh" />
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
