@@ -57,7 +57,7 @@
             "production": true,
             "start_build": 7500,
             "trigger_blackduck": true,
-            "interval": 361,
+            "interval": 241,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-59916"
