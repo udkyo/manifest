@@ -14,7 +14,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="faiss" remote="couchbasedeps" revision="d87888b13e7eb339bb9c45825e9d20def6665171" path="mobile-vector-search/vendor/faiss"/>
+  <project name="faiss" remote="couchbasedeps" revision="ba19feb2685440c3d89d4f7dc41b09f385348c96" path="mobile-vector-search/vendor/faiss"/>
   <project name="ios-cmake" remote="couchbasedeps" revision="06465b27698424cf4a04a5ca4904d50a3c966c45" path="mobile-vector-search/vendor/ios-cmake"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
