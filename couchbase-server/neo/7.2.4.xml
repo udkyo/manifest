@@ -61,7 +61,7 @@
   <project name="asterixdb" revision="41212d67452fb92ad5a78a9ae92ad0aeba5b24ae" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="9d10ad987f7d9b28dce2dbf77c4bdcaee8c38762" groups="notdefault,enterprise,analytics"/>
   <project name="couchbase-jvm-core" path="analytics/couchbase-jvm-core" revision="refs/tags/1.7.24" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas" revision="8d419995f1fa0084c9eee56989cd2dcacf3bf25c" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas" revision="7.2.4" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="notdefault,enterprise,analytics" revision="19082ec66938e0c85b6edcb4eba79d10de59d22a"/>
 
   <!-- Go support libraries - Couchbase-supported -->
