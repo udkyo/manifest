@@ -6,7 +6,7 @@
              "interval": 90,
              "restricted": false,
              "start_build": 1,
-             "keep_git": true,
+             "keep_git": false,
              "trigger_blackduck": false,
              "module_projects": [
                  "mobile-vector-search"
