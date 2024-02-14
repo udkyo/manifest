@@ -2,7 +2,7 @@
     "manifests": {
         "couchbase-cloud-native-gateway/master.xml": {
             "production": true,
-            "interval": 1500,
+            "interval": 30,
             "restricted": false,
             "start_build": 123,
             "trigger_blackduck": true,
