@@ -48,7 +48,7 @@
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="bsl,kv"/>
   <project name="testrunner" revision="trinity"/>
-  <project name="tlm" groups="bsl,kv" revision="trinity">
+  <project name="tlm" groups="bsl,kv" revision="648400131c15f7a16af5cc2c808b1827fad4d227">
     <copyfile src="Build.sh" dest="Build.sh" />
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
