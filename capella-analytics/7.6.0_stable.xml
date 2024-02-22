@@ -32,7 +32,7 @@
   <project name="client_model" path="godeps/src/github.com/prometheus/client_model" remote="couchbasedeps" revision="6dc836ede0b5b08c61893c3ffeb474498b18bb83"/>
   <project name="clog" path="godeps/src/github.com/couchbase/clog" revision="f935d1fdfc36541b505cf86fea4822e4067f9c39" upstream="master"/>
   <project name="common" path="godeps/src/github.com/prometheus/common" remote="couchbasedeps" revision="902cb39e6c079571d32c2db8da220da13c11b562" upstream="refs/tags/v0.33.0"/>
-  <project name="couchbase-cli" revision="74dcdb2996ba6c5976fd2f114fae4193fc312ca1" upstream="trinity" groups="kv"/>
+  <project name="couchbase-cli" revision="44f9171edd880158601a7b87da489a96240a1b87" upstream="trinity" groups="kv"/>
   <project name="couchdb" revision="cc134bd950ff7700842089cb14f7ee05b7c9ff08" dest-branch="unstable"/>
   <project name="couchdbx-app" revision="702647dd015e7443de9cdb789806351774e85463" upstream="master" groups="notdefault,packaging"/>
   <project name="couchstore" revision="86f3d74bd0017d48aedb77051ad386d9082dfeaf" upstream="trinity" groups="kv"/>
@@ -79,7 +79,7 @@
   <project name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" revision="c98b00582c8686c57501f662e5069647b55ab82e" upstream="master" dest-branch="unstable" groups="bsl,notdefault,enterprise"/>
   <project name="platform" revision="2dcf5d064fa3ed54d6652e77c192c7a85758a31f" upstream="trinity" groups="bsl,kv"/>
   <project name="procfs" path="godeps/src/github.com/prometheus/procfs" remote="couchbasedeps" revision="76fc8b844e3a18c31bf689e4fe7efdd5a2f41298"/>
-  <project name="product-metadata" revision="89ba416035bd6bcebd3a3adca9d52fd7f6571c1e" upstream="master" groups="notdefault,packaging"/>
+  <project name="product-metadata" revision="dba7758a7a7998659086e947268a2e2c38776316" upstream="master" groups="notdefault,packaging"/>
   <project name="product-texts" revision="ec09296ae7979a7bf5ca80c25842afca45e0ec99" upstream="master"/>
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="d04d7b157bb510b1e0c10132224b616ac0e26b17" upstream="refs/tags/v1.4.2"/>
   <project name="protobuf-go" path="godeps/src/google.golang.org/protobuf" remote="couchbasedeps" revision="32051b4f86e54c2142c7c05362c6e96ae3454a1c" upstream="refs/tags/v1.28.0"/>
@@ -91,7 +91,7 @@
   <project name="simdutf" path="third_party/simdutf" remote="couchbasedeps" revision="4a212616ba23c65c7048f9604faccbff5353300f" upstream="refs/tags/v3.2.14" groups="kv"/>
   <project name="subjson" revision="a619faccb30e43a4bc0708ee11b1b24abb349f18" upstream="master" groups="bsl,kv"/>
   <project name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="d36c6a25d886e7c9975d5bf247ac24887ba6da37"/>
-  <project name="testrunner" revision="51d7b112d57e1e132b3f01a62b2704ae1af86ef8" upstream="trinity"/>
+  <project name="testrunner" revision="880c28245722206a60ca9b62be72ddc4eb0fb491" upstream="trinity"/>
   <project name="tlm" revision="648400131c15f7a16af5cc2c808b1827fad4d227" groups="bsl,kv">
     <copyfile src="Build.sh" dest="Build.sh"/>
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
