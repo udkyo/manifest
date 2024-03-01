@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "couchbase-lite-net-extensions/main.xml": {
+            "release_name": "Couchbase Lite Net Extensions - main",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true
+        }
+    }
+}
