@@ -14,7 +14,7 @@
   <!-- Couchbase-owned primary repositories               -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-ios" path="couchbase-lite-ios-ee/couchbase-lite-ios"/>
+  <project name="couchbase-lite-ios" remote="couchbase"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
