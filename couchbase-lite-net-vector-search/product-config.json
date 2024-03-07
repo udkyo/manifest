@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "couchbase-lite-net-vector-search/main.xml": {
+            "release_name": "Couchbase Lite Net Vector Search - main",
+            "production": true,
+            "interval": 720,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true
+        }
+    }
+}
