@@ -69,9 +69,9 @@
   <!-- For the time being, we are consuming this directly from blevesearch. -->
   <!-- After the initial development period (and well before GA), we'll lock -->
   <!-- this to SHA like other bleve dependencies. MB-58902 -->
-  <project name="faiss" revision="bleve" remote="blevesearch" groups="notdefault,enterprise"/>
+  <project name="faiss" revision="jemalloc" remote="blevesearch" groups="notdefault,enterprise"/>
 
-  <project name="zapx"  remote="blevesearch" revision="revert" path="godeps/src/github.com/blevesearch/zapx"/>
+  <project name="go-faiss"  remote="blevesearch" revision="testJemalloc" path="godeps/src/github.com/blevesearch/go-faiss"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
