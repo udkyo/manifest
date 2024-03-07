@@ -71,6 +71,7 @@
   <!-- this to SHA like other bleve dependencies. MB-58902 -->
   <project name="faiss" revision="jemalloc" remote="blevesearch" groups="notdefault,enterprise"/>
 
+  <project name="bleve"  remote="blevesearch" revision="toy" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="go-faiss"  remote="blevesearch" revision="testJemalloc" path="godeps/src/github.com/blevesearch/go-faiss"/>
 
   <!-- Go support libraries - Couchbase-supported -->
