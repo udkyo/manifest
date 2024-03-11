@@ -1,5 +1,15 @@
 {
     "manifests": {
+        "couchbase-lite-net/boron.xml": {
+            "release_name": "Couchbase Lite Net - Boron",
+            "production": true,
+            "interval": 120,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "do-build": true
+        },
         "couchbase-lite-net/beryllium.xml": {
             "release_name": "Couchbase Lite Net - Beryllium",
             "production": true,
