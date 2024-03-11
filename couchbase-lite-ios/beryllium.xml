@@ -20,7 +20,7 @@
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="48adb7b9e73b2162c828bd887b43d190f492a164" path="couchbase-lite-ios-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-core" revision="90947cf217f860a6ff86a453dbda91fed850af9b" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="f686852be5fcce2d1f63107a168d1bd0f3039af2" path="couchbase-lite-ios/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-ios/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -28,7 +28,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="MYUtilities" remote="couchbasedeps" revision="e5d39ec667d1fc1b6b9579b6dcb8c9ff31c20e4b" path="couchbase-lite-ios/vendor/MYUtilities"/>
   <project name="BLIP-Cpp" remote="couchbaselabs" revision="96dd437a898aa70e8a28d361c32a10d809e70110" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbase" revision="6c1e69cb44fd5214aea63c504fb027ab2397b87f" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbase" revision="8f89a3be0f9e72018596f831e528b8d25314587e" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="couchbasedeps" revision="56f70205de560e96a6ef4766839e4fa67e0d0749" path="couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
   <project name="litecore-download-script" remote="couchbaselabs" revision="93274f9fb0936af0b754a408154a2a24d2dd0041" path="couchbase-lite-ios/vendor/couchbase-lite-core/tools"/>
