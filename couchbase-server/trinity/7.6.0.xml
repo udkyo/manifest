@@ -12,10 +12,10 @@
   <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise" revision="trinity"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise" revision="trinity"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" revision="trinity"/>
-  <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="trinity"/>
+  <project name="cbft" revision="764b0e4d71ab06f48bd68eb819703fda1344c525"/>
+  <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="6bfacde7f08c47b9984f03dfea4fa4b3855db133"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="cbgt" revision="trinity"/>
+  <project name="cbgt" revision="273bd43556e1ae04e9c26d261c363fc1ac140b98"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli" groups="kv" revision="trinity"/>
   <project name="couchdb" revision="cc134bd950ff7700842089cb14f7ee05b7c9ff08" dest-branch="unstable"/>
@@ -73,7 +73,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="trinity"/>
+  <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="fe4b71c3c09c688b04c44d61c6dbbfe9dc1f7924"/>
   <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json" revision="7.6.0"/>
   <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="7.6.0"/>
   <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth" groups="backup"/>
