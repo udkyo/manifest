@@ -70,7 +70,6 @@
   <!-- After the initial development period (and well before GA), we'll lock -->
   <!-- this to SHA like other bleve dependencies. MB-58902 -->
   <project name="faiss" revision="bleve" remote="blevesearch" groups="notdefault,enterprise"/>
-  <project name="go-faiss"  remote="blevesearch" revision="225654a89caa64726a72756f499454f0fc8e8ded" path="godeps/src/github.com/blevesearch/go-faiss"/>
   <project name="zapx"  remote="blevesearch" revision="index-types" path="godeps/src/github.com/blevesearch/zapx"/>
 
   <!-- Go support libraries - Couchbase-supported -->
