@@ -28,8 +28,8 @@
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl" revision="144fc97169cedc62549e095998dee7a64b302e79"/>
   <project name="gometa" revision="ed8db6e219da7ca93e1811b1ad70ff35e19782ba" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro" revision="0ca7ce9923965ad05c1257104ce5e8992cb71735" path="goproj/src/github.com/couchbase/nitro" groups="bsl"/>
-  <project name="indexing" revision="d70a4705e2bb0b9cfd5138d90610eb986039377e" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
-  <project name="plasma" revision="b4ead540aad833a922bc6b42b2292cf2349f97fe" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="indexing" revision="7.2.4" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
+  <project name="plasma" revision="7.2.4" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="8efdafff13bac2d9e603d124fc959c7a1150fc8e" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="2e23cee40f5f79e9670a41e750ecc0326324b227" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="3071fdcc090aa6974c87c14d0340d9753eab0322" groups="kv,bsl"/>
@@ -42,7 +42,7 @@
   <project name="platform" revision="neo" groups="bsl,kv"/>
   <project name="product-texts" revision="ec09296ae7979a7bf5ca80c25842afca45e0ec99"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="b9330deb73a16e05d7bf5effdb53df6219b8f280"/>
-  <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="9bdaa7d745d856dc13d6337b9cc5056e2e4e279d"/>
+  <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="7.2.4"/>
   <project name="query-ui" groups="bsl" revision="83e831236a17e940168132d32055abe726051694"/>
   <project name="sigar" revision="neo" groups="kv"/>
   <project name="subjson" revision="0820f83427d69c6eb737876eb2f2cf6aefa45802" groups="bsl,kv"/>
