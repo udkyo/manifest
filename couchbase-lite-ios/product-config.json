@@ -1,9 +1,23 @@
 {
     "manifests": {
+        "couchbase-lite-ios/boron.xml": {
+            "release_name": "Couchbase Lite iOS - Boron",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "do-build": true,
+            "module_projects": [
+                "couchbase-lite-ios-ee",
+                "couchbase-lite-ios"
+            ]
+        },
         "couchbase-lite-ios/beryllium.xml": {
             "release_name": "Couchbase Lite iOS - Beryllium",
             "production": true,
-            "interval": 90,
+            "interval": 240,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
