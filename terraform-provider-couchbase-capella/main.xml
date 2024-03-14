@@ -2,6 +2,7 @@
 <manifest>
   <remote name="couchbasecloud-priv" fetch="ssh://git@github.com/couchbasecloud/" />
   <remote name="couchbase" fetch="https://github.com/couchbase" review="review.couchbase.org" />
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs" review="review.couchbase.org" />
 
   <default remote="couchbasecloud-priv" revision="main"/>
 
