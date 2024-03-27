@@ -35,7 +35,7 @@
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv"/>
   <project name="libcouchbase" revision="refs/tags/3.3.11"/>
-  <project name="magma" groups="notdefault,enterprise,kv_ee" revision="fusionfs" remote="couchbase-priv" />
+  <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="fusion" groups="notdefault,enterprise" revision="main" remote="couchbaselabs-priv" />
   <project name="ns_server"/>
   <project name="chronicle" revision="914d26d323c8275e667dd441e645a5bad25e0903" path="ns_server/deps/chronicle"/>
