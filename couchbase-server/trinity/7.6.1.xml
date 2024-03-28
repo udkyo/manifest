@@ -9,8 +9,8 @@
   <default remote="couchbase" revision="master"/>
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise" revision="trinity"/>
-  <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise" revision="trinity"/>
+  <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise" revision="c32f044059c74089ef171d2eb9119bfed599b04c"/>
+  <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise" revision="cd38375f19fc634b77c31580969d6402e74bead0"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
   <project name="cbft" revision="764b0e4d71ab06f48bd68eb819703fda1344c525"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="6bfacde7f08c47b9984f03dfea4fa4b3855db133"/>
@@ -32,9 +32,9 @@
   <project name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" revision="c98b00582c8686c57501f662e5069647b55ab82e" dest-branch="unstable" groups="bsl,notdefault,enterprise"/>
   <project name="eventing" revision="69a691857ca21c2324d5b1f5de7852c7e74312db" path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="5425f180a0756868524081f889ab224cfc10b70d" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
-  <project name="kv_engine" revision="trinity" groups="kv,bsl"/>
+  <project name="kv_engine" revision="a64ec941bb345db079bac5d8f41705db4f0c4bc2" groups="kv,bsl"/>
   <project name="libcouchbase" revision="684931e59cd87e0c6292e8142c2b18897be5b10c"/>
-  <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" revision="trinity"/>
+  <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" revision="2ed680f8c7dd51e412ba39375e09914133131058"/>
   <project name="ns_server" revision="6bf5ef66487ffacc31ea79b9f864b6715969476f" groups="bsl"/>
   <project name="chronicle" revision="7de1bde10de09979908c30813d88fe2d73b425ed" path="ns_server/deps/chronicle"/>
   <project name="vbmap" revision="6cce93c4af4497d8108c3ed31b84d7139321cc82"/>
