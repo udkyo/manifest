@@ -29,7 +29,7 @@
         },
         "couchbase-server/trinity/7.6.1.xml": {
             "release": "trinity",
-            "release_name": "Trinity (7.6.1)",
+            "release_name": "Trinity (7.6.1-MP1)",
             "parent": "couchbase-server/trinity.xml",
             "production": true,
             "start_build": 3200,
@@ -37,7 +37,7 @@
             "interval": 117,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-61179"
+            "approval_ticket": "MB-61364"
         },
         "couchbase-server/trinity/7.6.0.xml": {
             "release": "trinity",
