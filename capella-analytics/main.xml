@@ -17,5 +17,6 @@
   <project name="build" path="cbbuild" groups="notdefault,build" revision="2beb97fb2e69a8f661d27821e77282dd1426d26a">
     <annotation name="VERSION" value="1.0.0"     keep="true"/>
     <annotation name="SERVER_VERSION" value="7.6.101"     keep="true"/>
+    <annotation name="COLUMNAR_BUILD" value="true"     keep="true"/>
   </project>
 </manifest>
