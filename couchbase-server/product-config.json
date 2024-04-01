@@ -24,7 +24,7 @@
             "production": true,
             "start_build": 3500,
             "trigger_blackduck": true,
-            "interval": 365,
+            "interval": 181,
             "keep_git": true
         },
         "couchbase-server/trinity/7.6.1.xml": {
@@ -34,7 +34,7 @@
             "production": true,
             "start_build": 3200,
             "trigger_blackduck": true,
-            "interval": 117,
+            "interval": 125,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-61364"
@@ -46,7 +46,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": true,
-            "interval": 117,
+            "interval": 1572,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-61179",
@@ -70,7 +70,7 @@
             "production": true,
             "start_build": 7500,
             "trigger_blackduck": true,
-            "interval": 241,
+            "interval": 117,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-59916"
@@ -82,7 +82,7 @@
             "production": true,
             "start_build": 6900,
             "trigger_blackduck": true,
-            "interval": 117,
+            "interval": 414,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-61256"
@@ -107,6 +107,7 @@
             "start_build": 6400,
             "trigger_blackduck": true,
             "interval": 1527,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-58730"
@@ -119,6 +120,7 @@
             "start_build": 5000,
             "trigger_blackduck": true,
             "interval": 1519,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-56561"
@@ -247,6 +249,7 @@
             "start_build": 7649,
             "trigger_blackduck": true,
             "interval": 1604,
+            "do-build": false,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-56304"
@@ -333,7 +336,7 @@
             "release_name": "Mad-Hatter 6.6.5-MP12",
             "parent": "couchbase-server/mad-hatter.xml",
             "interval": 240,
-            "do-build": true,
+            "do-build": false,
             "start_build": 9960,
             "trigger_blackduck": false,
             "restricted": true,
