@@ -12,7 +12,7 @@
   <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise" revision="c32f044059c74089ef171d2eb9119bfed599b04c"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise" revision="cd38375f19fc634b77c31580969d6402e74bead0"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" revision="764b0e4d71ab06f48bd68eb819703fda1344c525"/>
+  <project name="cbft" revision="7.6.1"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="6bfacde7f08c47b9984f03dfea4fa4b3855db133"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise" revision="c57616b187889a5318688f49817ccaceb9c098b9"/>
   <project name="cbgt" revision="273bd43556e1ae04e9c26d261c363fc1ac140b98"/>
@@ -42,7 +42,7 @@
   <project name="platform" revision="2dcf5d064fa3ed54d6652e77c192c7a85758a31f" groups="bsl,kv"/>
   <project name="product-texts"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="b40a7a1a89ebe5f832e8e916844c9e3253f5aee4"/>
-  <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="7caa875d77369f08545a8af11c4e41bacbd3581f"/>
+  <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="7.6.1"/>
   <project name="query-ui" groups="bsl" revision="fae0de9c48621c5cdee03453f421910acbfb80cf"/>
   <project name="regulator" revision="3cb6cb8e58ac6ce03bfa15c6c25c3535821fa2e2" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" groups="kv" revision="2da0c123cfb45ae39e76e730bd960db8812e3f20"/>
@@ -73,7 +73,7 @@
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="fe4b71c3c09c688b04c44d61c6dbbfe9dc1f7924"/>
+  <project name="n1fty" path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="7.6.1"/>
   <project name="go_json" path="goproj/src/github.com/couchbase/go_json" revision="d6e17ad2b9a218e82569e09b761c226fa8df726a"/>
   <project name="gomemcached" path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="12576d7f6f0648c478e892bde042dedde6b7d89e"/>
   <project name="cbauth" path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="5f07f05f3535b700cad845e669993520c3459c54"/>
