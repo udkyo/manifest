@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- We're a modified 7.6.0 -->
-  <include name="capella-analytics/7.6.0_stable.xml"/>
+  <include name="capella-analytics/7.6.1_stable.xml"/>
 
   <!-- Pick up Analytics projects from master branches -->
   <extend-project name="cbas-core" revision="master" />
@@ -16,6 +16,6 @@
   <remove-project name="build"/>
   <project name="build" path="cbbuild" groups="notdefault,build" revision="2beb97fb2e69a8f661d27821e77282dd1426d26a">
     <annotation name="VERSION" value="1.0.0"     keep="true"/>
-    <annotation name="SERVER_VERSION" value="7.6.100"     keep="true"/>
+    <annotation name="SERVER_VERSION" value="7.6.101"     keep="true"/>
   </project>
 </manifest>

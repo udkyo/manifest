@@ -13,7 +13,7 @@
   <project name="asterixdb" path="analytics/asterixdb" revision="0d9506ba4a8c46fb44120e6e36a7368959bff2d8" groups="notdefault,enterprise,analytics"/>
   <project name="backup" remote="couchbase-priv" revision="c32f044059c74089ef171d2eb9119bfed599b04c" groups="backup,notdefault,enterprise"/>
   <project name="build" path="cbbuild" revision="cedf9d4ec929eac7e61f8e86488aeac5402c8563" groups="notdefault,build">
-    <annotation name="VERSION" value="7.6.0"/>
+    <annotation name="VERSION" value="7.6.1"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server"/>
     <annotation name="BSL_VERSION" value="7.6"/>
     <annotation name="BSL_CHANGE_DATE" value="March 1, 2028"/>
@@ -63,7 +63,7 @@
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="272f2b17b5547798eebad45c71c1178e939994ca" groups="bsl"/>
   <project name="gsl-lite" path="third_party/gsl-lite" remote="couchbasedeps" revision="e1c381746c2625a76227255f999ae9f14a062208" groups="kv"/>
   <project name="hebrew" remote="couchbase-priv" revision="c57616b187889a5318688f49817ccaceb9c098b9" groups="notdefault,enterprise"/>
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="73e37029802d479d9fe2b5de3861bb446bbaf60a" dest-branch="unstable" groups="bsl"/>
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="f2cac8c4f732fb6cee4bfb511e198df5728baa1e" dest-branch="unstable" groups="bsl"/>
   <project name="jsonschema" path="godeps/src/github.com/santhosh-tekuri/jsonschema" remote="couchbasedeps" revision="137f44a49015e5060a447c331aa37de6e0f50267"/>
   <project name="kv_engine" revision="a64ec941bb345db079bac5d8f41705db4f0c4bc2" groups="kv,bsl"/>
   <project name="libcouchbase" revision="684931e59cd87e0c6292e8142c2b18897be5b10c"/>
@@ -91,7 +91,7 @@
   <project name="simdutf" path="third_party/simdutf" remote="couchbasedeps" revision="4a212616ba23c65c7048f9604faccbff5353300f" groups="kv"/>
   <project name="subjson" revision="a619faccb30e43a4bc0708ee11b1b24abb349f18" groups="bsl,kv"/>
   <project name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="d36c6a25d886e7c9975d5bf247ac24887ba6da37"/>
-  <project name="testrunner" revision="f790dfd2c0cbe71940ee66f1e4b1ab22c72a6c03"/>
+  <project name="testrunner" revision="f8e66d17b163ab1723f004c3543bc3489c221f74"/>
   <project name="tlm" revision="648400131c15f7a16af5cc2c808b1827fad4d227" groups="bsl,kv">
     <copyfile src="Build.sh" dest="Build.sh"/>
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
