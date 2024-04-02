@@ -25,7 +25,9 @@
             "start_build": 3500,
             "trigger_blackduck": true,
             "interval": 181,
-            "keep_git": true
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-60728"
         },
         "couchbase-server/trinity/7.6.1.xml": {
             "release": "trinity",
