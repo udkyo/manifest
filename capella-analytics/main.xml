@@ -9,6 +9,8 @@
   <extend-project name="analytics-dcp-client" revision="master" />
   <extend-project name="cbas" revision="master" />
   <extend-project name="cbas-ui" revision="master" />
+  <extend-project name="ns_server" revision="544a017b05bfc53cac53eb9433d876f6b32f3465" />
+  <extend-project name="tlm" revision="b612113aa7a42c70884d57c4851d405850a5ad44" />
 
   <!-- Replace build repo to provide different annotations -->
   <!-- Don't use just extend-project as that leaves in other annotations -->
