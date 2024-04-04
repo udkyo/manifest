@@ -1,8 +1,8 @@
 {
     "manifests": {
-        "capella-analytics/main.xml": {
+        "couchbase-columnar/main.xml": {
             "production": true,
-            "start_build": 1000,
+            "start_build": 2000,
             "trigger_blackduck": true,
             "interval": 222,
             "keep_git": true

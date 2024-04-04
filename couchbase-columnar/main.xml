@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- We're a modified 7.6.0 -->
-  <include name="capella-analytics/7.6.1_stable.xml"/>
+  <include name="couchbase-columnar/7.6.1_stable.xml"/>
 
   <!-- Pick up Analytics projects from master branches -->
   <extend-project name="cbas-core" revision="master" />
