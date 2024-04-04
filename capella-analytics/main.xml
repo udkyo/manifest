@@ -10,7 +10,7 @@
   <extend-project name="cbas" revision="master" />
   <extend-project name="cbas-ui" revision="master" />
   <extend-project name="ns_server" revision="544a017b05bfc53cac53eb9433d876f6b32f3465" />
-  <extend-project name="tlm" revision="b612113aa7a42c70884d57c4851d405850a5ad44" />
+  <extend-project name="tlm" revision="8f8ed9978f6fe14749cb8634496eaba33dc697ca" />
 
   <!-- Replace build repo to provide different annotations -->
   <!-- Don't use just extend-project as that leaves in other annotations -->
@@ -18,7 +18,7 @@
   <remove-project name="build"/>
   <project name="build" path="cbbuild" groups="notdefault,build" revision="2beb97fb2e69a8f661d27821e77282dd1426d26a">
     <annotation name="VERSION" value="1.0.0"     keep="true"/>
-    <annotation name="SERVER_VERSION" value="7.6.101"     keep="true"/>
+    <annotation name="SERVER_VERSION" value="7.6.100"     keep="true"/>
     <annotation name="COLUMNAR" value="true"     keep="true"/>
   </project>
 </manifest>
