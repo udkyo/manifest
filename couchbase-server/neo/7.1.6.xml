@@ -39,12 +39,12 @@
   <project name="chronicle" revision="f53f803d409988d1bf3cdd2d7a5e9f55fb9dc2df" path="ns_server/deps/chronicle"/>
   <project name="vbmap" revision="7.1.x"/>
   <project name="phosphor" groups="bsl,kv" revision="2eb6c244d6910baf2834513ece579ba88e4f9b9d"/>
-  <project name="platform" revision="7.1.x" groups="bsl,kv"/>
+  <project name="platform" revision="37ae5f1c08bf87e79168f3b59dd195f61a3108a4" groups="bsl,kv"/>
   <project name="product-texts"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="7.1.x"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="7.1.x"/>
   <project name="query-ui" groups="bsl" revision="e43ed94e3eaadf3714b0c012435f4631ff69d1e0"/>
-  <project name="sigar" revision="7.1.x" groups="kv"/>
+  <project name="sigar" revision="410b89097cd635af112c9a21953a9e518f7aa13a" groups="kv"/>
   <project name="subjson" revision="0820f83427d69c6eb737876eb2f2cf6aefa45802" groups="bsl,kv"/>
   <project name="testrunner"/>
   <project name="tlm" revision="7.1.x" groups="bsl,kv">
