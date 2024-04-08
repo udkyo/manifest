@@ -28,8 +28,8 @@
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl" revision="7.1.4"/>
   <project name="gometa" revision="288382d7f984c8226d673a136b8173dceddd9b80" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro" revision="2575ec52bf5cf4c7ccc2cbc161eb38e46ce7b4a8" path="goproj/src/github.com/couchbase/nitro" groups="bsl"/>
-  <project name="indexing" revision="8d7ae01274c67b51dc0c0acbdc7de973fab95b65" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
-  <project name="plasma" revision="3336779722eb4a097d37ebbe118441ddaf64f3f2" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="indexing" revision="7.1.4" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
+  <project name="plasma" revision="7.1.4" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="05dc9b510f177e27e319de6315f34ff1b972a54d" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="5bb35cf9c0d2b13cc4e202fbb0a2fa438ed00b37" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="7.1.4" groups="kv,bsl"/>
@@ -39,7 +39,7 @@
   <project name="chronicle" revision="f53f803d409988d1bf3cdd2d7a5e9f55fb9dc2df" path="ns_server/deps/chronicle"/>
   <project name="vbmap" revision="bdaa65ace31b36bc26555004f3a6d22251070b7d"/>
   <project name="phosphor" groups="bsl,kv" revision="2eb6c244d6910baf2834513ece579ba88e4f9b9d"/>
-  <project name="platform" revision="37ae5f1c08bf87e79168f3b59dd195f61a3108a4" groups="bsl,kv"/>
+  <project name="platform" revision="7.1.4" groups="bsl,kv"/>
   <project name="product-texts"/>
   <project name="query-ee" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="0ba419507d27dce83273c7aa515d4fca69da374c"/>
   <project name="query" path="goproj/src/github.com/couchbase/query" groups="bsl" revision="7.1.4"/>
