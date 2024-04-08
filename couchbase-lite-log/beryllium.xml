@@ -26,7 +26,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="fleece" remote="couchbase" revision="e5115d370073b712c25625eb3105991f56d12fd5" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbase" revision="8f89a3be0f9e72018596f831e528b8d25314587e" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="peg" remote="snej" revision="5722a4b087e58d5cc93ed13fc18e2530948498c1" path="couchbase-mobile-tools/vendor/peg"/>
   <project name="sqlite3-unicodesn" remote="couchbasedeps" revision="56f70205de560e96a6ef4766839e4fa67e0d0749" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
@@ -40,7 +40,7 @@
   <project name="ios-cmake" remote="couchbasedeps" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/ios-cmake"/>
   <project name="sockpp" remote="couchbasedeps" revision="01c7560ed14bf5a935f7e899f9eb4f72f7403d5d" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sockpp"/>
   <project name="zlib" remote="couchbasedeps" revision="04f42ceca40f73e2978b50e93806c2a18c1281fc" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/zlib"/>
-  <project name="SQLiteCpp" remote="couchbasedeps" revision="8a522a52ba532ac733198ba87471f64abae73b05" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
+  <project name="SQLiteCpp" remote="couchbasedeps" revision="88214f799fe7df8a7ad4470409f11aa7944d3e51" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
