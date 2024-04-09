@@ -11,7 +11,7 @@
   <extend-project name="cbas-ui" revision="master" />
   <extend-project name="ns_server" revision="544a017b05bfc53cac53eb9433d876f6b32f3465" />
   <extend-project name="tlm" revision="0ea4ce82a2e89001ee8c5d6e6f30edd07e82fba5" />
-  <extend-project name="voltron" revision="1607fa8341873b041499af0c1cdcf38a7fd36546" />
+  <extend-project name="voltron" revision="master" />
 
   <!-- Replace build repo to provide different annotations -->
   <!-- Don't use just extend-project as that leaves in other annotations -->
