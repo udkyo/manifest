@@ -46,7 +46,7 @@
   <project name="query-ui" groups="bsl"/>
   <project name="regulator" revision="main" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" groups="kv" revision="2da0c123cfb45ae39e76e730bd960db8812e3f20"/>
-  <project name="subjson" groups="bsl,kv"/>
+  <project name="subjson" groups="bsl,kv" revision="a619faccb30e43a4bc0708ee11b1b24abb349f18"/>
   <project name="testrunner" revision="trinity"/>
   <project name="tlm" groups="bsl,kv" revision="trinity">
     <copyfile src="Build.sh" dest="Build.sh" />
