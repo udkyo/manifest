@@ -66,10 +66,6 @@
   <project name="cbas-ui" groups="notdefault,enterprise,analytics"/>
 
   <!-- Third-party projects -->
-  <!-- For the time being, we are consuming this directly from blevesearch. -->
-  <!-- After the initial development period (and well before GA), we'll lock -->
-  <!-- this to SHA like other bleve dependencies. MB-58902 -->
-  <project name="faiss" revision="bleve" remote="blevesearch" groups="notdefault,enterprise"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
