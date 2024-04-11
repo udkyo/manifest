@@ -7,13 +7,12 @@
   <remote name="blevesearch"   fetch="https://github.com/blevesearch/" />
 
   <default remote="couchbase" revision="master" />
-  <remote name="CascadingRadium" fetch="https://github.com/CascadingRadium/" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise" revision="trinity"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise" revision="trinity"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" remote="CascadingRadium" revision="jemalloc"/>
+  <project name="cbft" revision="trinity"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise" revision="trinity"/>
   <project name="hebrew" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="cbgt" revision="trinity"/>
@@ -43,13 +42,13 @@
   <project name="platform" revision="trinity" groups="bsl,kv"/>
   <project name="product-texts"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="trinity"/>
-  <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl" remote="CascadingRadium" revision="jemalloc"/>
+  <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl" revision="trinity"/>
   <project name="query-ui" groups="bsl"/>
   <project name="regulator" revision="main" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" groups="kv" revision="2da0c123cfb45ae39e76e730bd960db8812e3f20"/>
   <project name="subjson" groups="bsl,kv"/>
   <project name="testrunner" revision="trinity"/>
-  <project name="tlm" groups="bsl,kv" remote="CascadingRadium" revision="jemalloc">
+  <project name="tlm" groups="bsl,kv" revision="trinity">
     <copyfile src="Build.sh" dest="Build.sh" />
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
@@ -70,8 +69,7 @@
   <!-- For the time being, we are consuming this directly from blevesearch. -->
   <!-- After the initial development period (and well before GA), we'll lock -->
   <!-- this to SHA like other bleve dependencies. MB-58902 -->
-  <project name="faiss" revision="jemalloc" remote="blevesearch" groups="notdefault,enterprise"/>
-  <project name="go-faiss"  remote="blevesearch" revision="testJemalloc" path="godeps/src/github.com/blevesearch/go-faiss"/>
+  <project name="faiss" revision="bleve" remote="blevesearch" groups="notdefault,enterprise"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
@@ -119,7 +117,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="7.6.1"     keep="true"/>
+    <annotation name="VERSION" value="7.6.2"     keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
