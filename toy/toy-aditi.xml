@@ -26,10 +26,10 @@
   <project name="forestdb" revision="cb-master" groups="backup"/>
   <project name="geocouch"/>
   <project name="goxdcr" revision="trinity" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl"/>
-  <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
-  <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" dest-branch="unstable" groups="bsl"/>
-  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" dest-branch="unstable" groups="bsl"/>
-  <project name="plasma"    revision="trinity" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" dest-branch="unstable" groups="bsl,notdefault,enterprise"/>
+  <project name="gometa"    revision="trinity" path="goproj/src/github.com/couchbase/gometa"/>
+  <project name="nitro"     revision="trinity" path="goproj/src/github.com/couchbase/nitro" groups="bsl"/>
+  <project name="indexing"  revision="trinity" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
+  <project name="plasma"    revision="trinity" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="bsl,notdefault,enterprise"/>
   <project name="eventing" revision="trinity" path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="trinity" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="trinity" groups="kv,bsl"/>
@@ -46,7 +46,7 @@
   <project name="query-ui" groups="bsl"/>
   <project name="regulator" revision="main" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" groups="kv" revision="2da0c123cfb45ae39e76e730bd960db8812e3f20"/>
-  <project name="subjson" groups="bsl,kv"/>
+  <project name="subjson" groups="bsl,kv" revision="a619faccb30e43a4bc0708ee11b1b24abb349f18"/>
   <project name="testrunner" revision="trinity"/>
   <project name="tlm" groups="bsl,kv" revision="trinity">
     <copyfile src="Build.sh" dest="Build.sh" />
@@ -66,18 +66,14 @@
   <project name="cbas-ui" groups="notdefault,enterprise,analytics"/>
 
   <!-- Third-party projects -->
-  <!-- For the time being, we are consuming this directly from blevesearch. -->
-  <!-- After the initial development period (and well before GA), we'll lock -->
-  <!-- this to SHA like other bleve dependencies. MB-58902 -->
-  <project name="faiss" revision="bleve" remote="blevesearch" groups="notdefault,enterprise"/>
-  <project name="zapx"  remote="blevesearch" revision="index-types" path="godeps/src/github.com/blevesearch/zapx"/>
+  <project name="bleve"  remote="blevesearch" revision="merge" path="godeps/src/github.com/blevesearch/bleve"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
   <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="trinity"/>
   <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json" revision="trinity"/>
   <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="trinity"/>
-  <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth" groups="backup"/>
+  <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="trinity"/>
   <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup" revision="trinity"/>
   <project name="goutils"                                                            path="goproj/src/github.com/couchbase/goutils" groups="bsl" revision="trinity"/>
   <project name="godbc"                                                              path="goproj/src/github.com/couchbase/godbc" revision="trinity"/>
@@ -117,8 +113,8 @@
   <project name="simdutf"        remote="couchbasedeps" revision="refs/tags/v3.2.14" path="third_party/simdutf" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build"      path="cbbuild"           groups="notdefault,build">
-    <annotation name="VERSION" value="7.6.1"     keep="true"/>
+  <project name="build" path="cbbuild" revision="cedf9d4ec929eac7e61f8e86488aeac5402c8563" groups="notdefault,build">
+    <annotation name="VERSION" value="7.6.2"     keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
