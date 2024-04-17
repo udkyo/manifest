@@ -28,7 +28,7 @@
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl" revision="e4e050712191f55b8d6b11b88f8ced7a40e5e946"/>
   <project name="gometa" revision="df61c2dc810a25e2491671dc0f8e582dc3193691" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro" revision="2575ec52bf5cf4c7ccc2cbc161eb38e46ce7b4a8" path="goproj/src/github.com/couchbase/nitro" groups="bsl"/>
-  <project name="indexing" revision="83abefebcdd3de73fbefdef4ad8bbd3809e88134" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
+  <project name="indexing" revision="7.1.5" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
   <project name="plasma" revision="5c3c306cd3ec7ba55a251b5fc09c65f5ed8de6d8" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing" revision="5cc6b4583f5bf236fabd84ed92200fba40c5533b" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="5779fe1744d4e77301856180d62efcd9b89b0fc2" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
