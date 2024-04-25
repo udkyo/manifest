@@ -12,6 +12,18 @@
                         "macos:arm64" ],
             "do-build": false,
             "keep_git": true
+        },
+        "cbdeps/faiss/unstable.xml": {
+            "restricted": false,
+            "jenkins_server": "server.jenkins.couchbase.com",
+            "jenkins_job": "cbdeps-build",
+            "platforms": [ "linux",
+                        "linux:aarch64",
+                        "macos",
+                        "macos:arm64" ],
+            "do-build": true,
+            "toy-build": true,
+            "keep_git": true
         }
     }
 }
