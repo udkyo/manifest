@@ -8,7 +8,7 @@
   <remote name="snej" fetch="https://github.com/snej/"/>
   <remote name="google" fetch="https://github.com/google/"/>
 
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="release/3.2"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
