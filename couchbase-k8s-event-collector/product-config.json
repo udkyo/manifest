@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "couchbase-k8s-event-collector/main.xml": {
+            "production": true,
+            "interval": 60,
+            "restricted": false,
+            "start_build": 100,
+            "keep_git": true,
+            "trigger_blackduck": true,
+            "jenkins_job": "couchbase-k8s-microservice-build"
+        }
+    }
+}
