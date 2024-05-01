@@ -9,7 +9,8 @@
             "keep_git": true,
             "platforms": [
                 "linux",
-                "linux:aarch64"
+                "linux:aarch64",
+                "windows_msvc2022"
             ]
         }
     }
