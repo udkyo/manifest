@@ -48,7 +48,7 @@
   <project name="sigar" groups="kv" revision="2da0c123cfb45ae39e76e730bd960db8812e3f20"/>
   <project name="subjson" groups="bsl,kv" revision="a619faccb30e43a4bc0708ee11b1b24abb349f18"/>
   <project name="testrunner" revision="trinity"/>
-  <project name="tlm" groups="bsl,kv" revision="43dcda2bd521e3e2d77c940919e235f45c130912">
+  <project name="tlm" groups="bsl,kv" revision="trinity">
     <copyfile src="Build.sh" dest="Build.sh" />
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
@@ -67,7 +67,6 @@
 
   <!-- Third-party projects -->
 
-  <project name="faiss" revision="mmapIndex" remote="blevesearch" groups="notdefault,enterprise"/>
   <project name="go-faiss" revision="mmapIndex" remote="blevesearch" path="godeps/src/github.com/blevesearch/go-faiss"/>
   <project name="zapx" revision="mmapIndex" remote="blevesearch" path="godeps/src/github.com/blevesearch/zapx"/>
 
