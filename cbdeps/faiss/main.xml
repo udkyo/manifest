@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase" fetch="https://github.com/couchbase/"/>
-  <remote name="blevesearch" fetch="https://github.com/ceejatec/"/>
+  <remote name="blevesearch" fetch="https://github.com/blevesearch/"/>
 
   <default remote="couchbase" revision="master"/>
 
