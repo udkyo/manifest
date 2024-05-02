@@ -47,7 +47,7 @@
   <project name="query-ui" groups="bsl"/>
   <project name="regulator" revision="main" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" groups="kv" revision="2da0c123cfb45ae39e76e730bd960db8812e3f20"/>
-  <project name="subjson" groups="bsl,kv"/>
+  <project name="subjson" groups="bsl,kv" revision="a619faccb30e43a4bc0708ee11b1b24abb349f18"/>
   <project name="testrunner" revision="trinity"/>
   <project name="tlm" groups="bsl,kv" revision="trinity">
     <copyfile src="Build.sh" dest="Build.sh" />
@@ -64,17 +64,13 @@
   <project name="asterixdb" path="analytics/asterixdb" revision="trinity" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="trinity" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" revision="trinity" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-ui" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-ui" revision="704db180d01de15f70cacc9fc11c5d8d8d4ff965" groups="notdefault,enterprise,analytics"/>
 
   <!-- Third-party projects -->
-  <!-- For the time being, we are consuming this directly from blevesearch. -->
-  <!-- After the initial development period (and well before GA), we'll lock -->
-  <!-- this to SHA like other bleve dependencies. MB-58902 -->
-  <project name="faiss" revision="bleve" remote="blevesearch" groups="notdefault,enterprise"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
-  <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty" groups="bsl" remote="abhinavdangeti" revision="temp"/>
+  <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="trinity"/>
   <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json" revision="trinity"/>
   <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="trinity"/>
   <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="trinity"/>
@@ -117,7 +113,7 @@
   <project name="simdutf"        remote="couchbasedeps" revision="refs/tags/v3.2.14" path="third_party/simdutf" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build"      path="cbbuild"           groups="notdefault,build">
+  <project name="build" path="cbbuild" revision="cedf9d4ec929eac7e61f8e86488aeac5402c8563" groups="notdefault,build">
     <annotation name="VERSION" value="7.6.2"     keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
