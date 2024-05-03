@@ -1,6 +1,5 @@
 <!-- couchbase-server-7.2.0-2228-manifest.xml -->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="blevesearch" fetch="https://github.com/blevesearch/"/>
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
