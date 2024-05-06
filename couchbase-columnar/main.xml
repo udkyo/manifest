@@ -11,7 +11,7 @@
   <extend-project name="cbas-ui" revision="master" />
 
   <!-- Override a few other projects to pick up Columnar requirements -->
-  <extend-project name="ns_server" revision="8c9528421468d33052a508356fd1fbdf5576b537" />
+  <extend-project name="ns_server" revision="46fba9012067786eee366d473101d32f219b1bf2" />
   <extend-project name="tlm" revision="0ea4ce82a2e89001ee8c5d6e6f30edd07e82fba5" />
   <extend-project name="voltron" revision="master" />
 
