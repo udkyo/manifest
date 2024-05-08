@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- We're a modified 7.6.1 -->
-  <include name="couchbase-columnar/7.6.1_stable.xml"/>
+  <!-- We're a modified 7.6.2 -->
+  <include name="couchbase-columnar/trinity_stable.xml"/>
 
   <!-- Pick up Analytics projects from master branches -->
   <extend-project name="cbas-core" revision="master" />
@@ -9,15 +9,6 @@
   <extend-project name="analytics-dcp-client" revision="master" />
   <extend-project name="cbas" revision="master" />
   <extend-project name="cbas-ui" revision="master" />
-
-  <!-- Override a few other projects to pick up Columnar requirements -->
-  <extend-project name="ns_server" revision="41836afcd05843444b1ac402e4c4397e748e46ec" />
-  <extend-project name="tlm" revision="0ea4ce82a2e89001ee8c5d6e6f30edd07e82fba5" />
-  <extend-project name="backup" revision="58e519dd649f0a63c77bbbc7536aff1ec7c7e12e" />
-  <extend-project name="voltron" revision="master" />
-
-  <!-- Override forestdb to workaround MB-61052 -->
-  <extend-project name="forestdb" revision="9efe6d75d7d61e742af70fb47fe97ad1d04ba86f" />
 
   <!-- Replace build repo to provide different annotations -->
   <!-- Don't use just extend-project as that leaves in other annotations -->
