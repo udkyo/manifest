@@ -3,6 +3,7 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"/>
+  <remote name="google" fetch="https://github.com/google/"/>
 
   <default remote="couchbase" revision="master"/>
 
@@ -18,6 +19,7 @@
   <project name="faiss" remote="couchbasedeps" revision="ba19feb2685440c3d89d4f7dc41b09f385348c96" path="mobile-vector-search/vendor/faiss"/>
   <project name="ios-cmake" remote="couchbasedeps" revision="06465b27698424cf4a04a5ca4904d50a3c966c45" path="mobile-vector-search/vendor/ios-cmake"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="3c888d94ca79821ee1c6f85115c5e4e60ddfd1e5" path="mobile-vector-search/vendor/SQLiteCpp"/>
+  <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="mobile-vector-search/vendor/SQLiteCpp/googletest"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
