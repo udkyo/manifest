@@ -69,6 +69,7 @@
   <project name="zapx"  remote="blevesearch" revision="index-types" path="godeps/src/github.com/blevesearch/zapx"/>
   <project name="bleve"  remote="blevesearch" revision="06449e9fc4e290896dae10776e217ab374284665" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="bleve_index_api"  remote="blevesearch" revision="index-types" path="godeps/src/github.com/blevesearch/bleve_index_api"/>
+  <project name="go-faiss"  remote="blevesearch" revision="d8f2ddf533200a04f162283b1d8749f405d61f82" path="godeps/src/github.com/blevesearch/go-faiss"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
