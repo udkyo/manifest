@@ -6,6 +6,9 @@
             "start_build": 1,
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "cbdeps-build",
+            "jenkins_job_parameters": {
+                "AUTO_PUBLISH": true
+            },
             "platforms": [ "linux",
                         "linux:aarch64",
                         "macos",
@@ -20,6 +23,9 @@
             "restricted": false,
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "cbdeps-build",
+            "jenkins_job_parameters": {
+                "AUTO_PUBLISH": true
+            },
             "platforms": [ "linux",
                         "linux:aarch64",
                         "macos",
