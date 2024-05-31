@@ -11,7 +11,9 @@
                         "macos",
                         "macos:arm64",
                         "windows_msvc2022" ],
-            "do-build": false,
+            "do-build": true,
+            "interval": 120,
+            "ignore_projects": [ "build-tools" ],
             "keep_git": true
         },
         "cbdeps/faiss/unstable.xml": {
@@ -24,6 +26,8 @@
                         "macos:arm64",
                         "windows_msvc2022" ],
             "do-build": true,
+            "interval": 120,
+            "ignore_projects": [ "build-tools" ],
             "toy-build": true,
             "keep_git": true
         }
