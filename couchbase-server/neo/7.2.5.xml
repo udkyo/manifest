@@ -57,9 +57,9 @@
   </project>
   <project name="udf-api" path="goproj/src/github.com/couchbase/udf-api" revision="b2788ae3d412356a330b36d7f38ad2c66edb5879"/>
   <!-- Analytics additions -->
-  <project name="cbas-core" revision="ab1ad606314a953950baf5819907cbd4f57a87f0" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" revision="7.2.5" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="asterixdb" revision="40cfb8705b1255c857ac31434602134929328b5a" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
-  <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="8ff0b45151ffad706a4fb5a006cd14ac2b14d826" groups="notdefault,enterprise,analytics"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="neo" groups="notdefault,enterprise,analytics"/>
   <project name="couchbase-jvm-core" path="analytics/couchbase-jvm-core" revision="refs/tags/1.7.24" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" revision="f1ae3d4c9a75bdead71d3fd2df882ae8f9eb10f9" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="notdefault,enterprise,analytics" revision="19082ec66938e0c85b6edcb4eba79d10de59d22a"/>
