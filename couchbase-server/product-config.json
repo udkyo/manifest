@@ -24,7 +24,7 @@
             "production": true,
             "start_build": 3500,
             "trigger_blackduck": true,
-            "interval": 181,
+            "interval": 99,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-60728"
@@ -36,7 +36,7 @@
             "production": true,
             "start_build": 3200,
             "trigger_blackduck": true,
-            "interval": 125,
+            "interval": 256,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-61364"
@@ -84,7 +84,7 @@
             "production": true,
             "start_build": 6900,
             "trigger_blackduck": true,
-            "interval": 414,
+            "interval": 125,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-62192"
@@ -96,7 +96,7 @@
             "production": true,
             "start_build": 6900,
             "trigger_blackduck": true,
-            "interval": 99,
+            "interval": 413,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-61527"
