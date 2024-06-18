@@ -15,7 +15,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="base64" remote="couchbasedeps" revision="387b32f337b83d358ac1ffe574e596ba99c41d31" path="mobile-vector-search/vendor/base64"/>
+  <project name="base64" remote="couchbasedeps" revision="e11bcc3f3683ac409b4f27f2551fea15331fda45" path="mobile-vector-search/vendor/base64"/>
   <project name="faiss" remote="couchbasedeps" revision="1bc9b8c78ee45301b027d48c4f32fd679a83cbb8" path="mobile-vector-search/vendor/faiss"/>
   <project name="ios-cmake" remote="couchbasedeps" revision="06465b27698424cf4a04a5ca4904d50a3c966c45" path="mobile-vector-search/vendor/ios-cmake"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="3c888d94ca79821ee1c6f85115c5e4e60ddfd1e5" path="mobile-vector-search/vendor/SQLiteCpp"/>
