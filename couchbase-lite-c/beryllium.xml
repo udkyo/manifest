@@ -21,7 +21,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="d708da28f6af945153d3b6fc715c0752c5de4409" path="couchbase-lite-c/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="554bf8f7261657ee5468f9e11b98656d6ee3c983" path="couchbase-lite-c/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core-EE" revision="86734653b94fa6db9af16626a340f2ae6610f9c4" path="couchbase-lite-c-ee/couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault, enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
