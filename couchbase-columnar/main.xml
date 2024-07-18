@@ -7,7 +7,7 @@
   <extend-project name="cbas-core" revision="master" />
   <extend-project name="asterixdb" revision="master" />
   <extend-project name="analytics-dcp-client" revision="master" />
-  <extend-project name="cbas" revision="master" />
+  <extend-project name="cbas" revision="17fcdc9904b52b2a497116c101022c7824c7a0aa" />
   <extend-project name="cbas-ui" revision="master" />
 
   <!-- Replace build repo to provide different annotations -->
