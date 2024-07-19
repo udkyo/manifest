@@ -14,7 +14,7 @@
             "production": true,
             "start_build": 1000,
             "trigger_blackduck": false,
-            "interval": 715,
+            "interval": 117,
             "keep_git": true
         },
         "couchbase-server/trinity.xml": {
@@ -36,7 +36,7 @@
             "production": true,
             "start_build": 3200,
             "trigger_blackduck": true,
-            "interval": 99,
+            "interval": 257,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-60728"
@@ -84,7 +84,7 @@
             "production": true,
             "start_build": 8000,
             "trigger_blackduck": true,
-            "interval": 117,
+            "interval": 99,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-61494"
