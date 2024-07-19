@@ -5,7 +5,9 @@
             "start_build": 2000,
             "trigger_blackduck": true,
             "interval": 222,
-            "keep_git": true
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-62810"
         }
     }
 }

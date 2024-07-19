@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- We're a modified 7.6.2 -->
+  <!-- We're a modified 7.6.3 -->
   <include name="couchbase-columnar/trinity_stable.xml"/>
 
-  <!-- Pick up Analytics projects from master branches -->
-  <extend-project name="cbas-core" revision="master" />
-  <extend-project name="asterixdb" revision="master" />
+  <!-- Pick up Analytics projects from goldfish/master branches -->
+  <extend-project name="cbas-core" revision="goldfish" />
+  <extend-project name="asterixdb" revision="goldfish" />
   <extend-project name="analytics-dcp-client" revision="master" />
-  <extend-project name="cbas" revision="master" />
+  <extend-project name="cbas" revision="goldfish" />
   <extend-project name="cbas-ui" revision="master" />
 
   <!-- Replace build repo to provide different annotations -->
