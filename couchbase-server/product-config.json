@@ -17,6 +17,18 @@
             "interval": 117,
             "keep_git": true
         },
+        "couchbase-server/cypher.xml": {
+            "release": "cypher",
+            "release_name": "Cypher",
+            "parent": "branch-master.xml",
+            "production": true,
+            "start_build": 1000,
+            "trigger_blackduck": true,
+            "interval": 732,
+            "keep_git": true,
+            "approval_ticket": "MB-62755",
+            "restricted": false
+        },
         "couchbase-server/trinity.xml": {
             "release": "trinity",
             "release_name": "Trinity",
