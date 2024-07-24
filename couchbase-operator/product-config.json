@@ -9,9 +9,18 @@
             "jenkins_job": "couchbase-k8s-microservice-build",
             "keep_git": true
         },
-        "couchbase-operator/2.6.x.xml": {
+        "couchbase-operator/2.7.x.xml": {
             "production": true,
             "interval": 240,
+            "restricted": false,
+            "start_build": 100,
+            "trigger_blackduck": true,
+            "jenkins_job": "couchbase-k8s-microservice-build",
+            "keep_git": true
+        },
+        "couchbase-operator/2.6.x.xml": {
+            "production": true,
+            "interval": 972,
             "restricted": false,
             "start_build": 100,
             "trigger_blackduck": true,
@@ -22,6 +31,7 @@
             "production": true,
             "interval": 240,
             "restricted": false,
+            "do-build": false,
             "start_build": 100,
             "trigger_blackduck": true,
             "jenkins_job": "couchbase-k8s-microservice-build",
@@ -31,6 +41,7 @@
             "production": true,
             "interval": 240,
             "restricted": false,
+            "do-build": false,
             "start_build": 100,
             "trigger_blackduck": true,
             "jenkins_job": "couchbase-k8s-microservice-build",
@@ -42,6 +53,7 @@
             "production": true,
             "interval": 120,
             "restricted": false,
+            "do-build": false,
             "start_build": 100,
             "trigger_blackduck": true,
             "jenkins_job": "couchbase-k8s-microservice-build",
