@@ -1,13 +1,21 @@
 {
     "manifests": {
+        "couchbase-columnar/goldfish.xml": {
+            "production": true,
+            "start_build": 2000,
+            "trigger_blackduck": true,
+            "interval": 1440,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-62810"
+        },
         "couchbase-columnar/main.xml": {
             "production": true,
             "start_build": 2000,
             "trigger_blackduck": true,
             "interval": 222,
             "keep_git": true,
-            "restricted": true,
-            "approval_ticket": "MB-62810"
+            "do-build": false
         }
     }
 }
