@@ -36,14 +36,14 @@
   <project name="libcouchbase" revision="684931e59cd87e0c6292e8142c2b18897be5b10c"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" revision="trinity"/>
   <project name="ns_server" revision="trinity" groups="bsl"/>
-  <project name="chronicle" revision="7de1bde10de09979908c30813d88fe2d73b425ed" path="ns_server/deps/chronicle"/>
+  <project name="chronicle" revision="8d1feeb0d8b15e2b6a4c1a417addfd159b422a71" path="ns_server/deps/chronicle"/>
   <project name="vbmap"/>
   <project name="phosphor" groups="bsl,kv" revision="c0a034fe407eec4723f2e01db2d72762efdbc276"/>
   <project name="platform" revision="trinity" groups="bsl,kv"/>
   <project name="product-texts"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise" revision="trinity"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query" groups="bsl" revision="trinity"/>
-  <project name="query-ui" groups="bsl"/>
+  <project name="query-ui" groups="bsl" revision="trinity"/>
   <project name="regulator" revision="main" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" groups="kv" revision="2da0c123cfb45ae39e76e730bd960db8812e3f20"/>
   <project name="subjson" groups="bsl,kv" revision="a619faccb30e43a4bc0708ee11b1b24abb349f18"/>
@@ -63,10 +63,10 @@
   <project name="asterixdb" path="analytics/asterixdb" revision="trinity" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="trinity" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" revision="trinity" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-ui" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-ui" revision="704db180d01de15f70cacc9fc11c5d8d8d4ff965" groups="notdefault,enterprise,analytics"/>
 
   <!-- Third-party projects -->
-  <project name="bleve"  remote="blevesearch" revision="merge" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="zapx"  remote="blevesearch" revision="chunk2" path="godeps/src/github.com/blevesearch/zapx"/>
 
   <!-- Go support libraries - Couchbase-supported -->
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
@@ -113,8 +113,8 @@
   <project name="simdutf"        remote="couchbasedeps" revision="refs/tags/v3.2.14" path="third_party/simdutf" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build" path="cbbuild" revision="cedf9d4ec929eac7e61f8e86488aeac5402c8563" groups="notdefault,build">
-    <annotation name="VERSION" value="7.6.2"     keep="true"/>
+  <project name="build" path="cbbuild" revision="trinity" groups="notdefault,build">
+    <annotation name="VERSION" value="7.6.3"     keep="true"/>
   </project>
   <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
