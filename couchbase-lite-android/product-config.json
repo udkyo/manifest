@@ -13,7 +13,7 @@
             "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/beryllium.xml": {
-            "release_name": "Couchbase Lite Android - Beryllium 3.2.0-beta.1",
+            "release_name": "Couchbase Lite Android - Beryllium 3.2.0",
             "production": true,
             "interval": 43800,
             "restricted": false,
@@ -25,7 +25,7 @@
             "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/helium.xml": {
-            "release_name": "Couchbase Lite Android - Helium 3.1.8",
+            "release_name": "Couchbase Lite Android - Helium 3.1.9",
             "production": true,
             "interval": 43800,
             "restricted": false,
