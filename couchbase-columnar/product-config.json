@@ -1,15 +1,16 @@
 {
     "manifests": {
         "couchbase-columnar/goldfish.xml": {
+            "release": "goldfish",
+            "release_name": "Goldfish (1.0.1)",
             "parent": "couchbase-columnar/ionic.xml",
             "production": true,
-            "start_build": 2000,
+            "start_build": 2300,
             "trigger_blackduck": true,
             "interval": 1440,
             "keep_git": true,
             "restricted": true,
-            "do-build": false,
-            "approval_ticket": "MB-62810"
+            "approval_ticket": "MB-62982"
         },
         "couchbase-columnar/ionic.xml": {
             "release": "ionic",
