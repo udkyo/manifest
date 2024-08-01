@@ -30,7 +30,7 @@
   <project name="nitro"     revision="trinity" path="goproj/src/github.com/couchbase/nitro" groups="bsl"/>
   <!-- For the time being, indexing is pulling latest code from master -->
   <project name="indexing"  revision="master" path="goproj/src/github.com/couchbase/indexing" groups="bsl"/>
-  <project name="plasma"    revision="trinity" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="bsl,notdefault,enterprise"/>
+  <project name="plasma"    revision="cypher" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="bsl,notdefault,enterprise"/>
   <project name="eventing" revision="trinity" path="goproj/src/github.com/couchbase/eventing" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="trinity" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" dest-branch="unstable" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="cypher" groups="kv,bsl"/>
