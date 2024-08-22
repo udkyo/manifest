@@ -5,12 +5,11 @@
             "release_name": "Goldfish (1.0.2)",
             "parent": "couchbase-columnar/ionic.xml",
             "production": true,
-            "start_build": 2300,
+            "start_build": 2400,
             "trigger_blackduck": true,
             "interval": 1440,
             "keep_git": true,
             "restricted": true,
-            "do-build": false,
             "approval_ticket": "MB-63188"
         },
         "couchbase-columnar/ionic.xml": {
