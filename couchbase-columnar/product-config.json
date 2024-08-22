@@ -10,6 +10,7 @@
             "interval": 1440,
             "keep_git": true,
             "restricted": true,
+            "do-build": false,
             "approval_ticket": "MB-63188"
         },
         "couchbase-columnar/ionic.xml": {
