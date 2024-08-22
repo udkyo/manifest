@@ -15,7 +15,7 @@
   <!-- from the parent, such as BSL stuff -->
   <remove-project name="build"/>
   <project name="build" path="cbbuild" groups="notdefault,build" revision="2beb97fb2e69a8f661d27821e77282dd1426d26a">
-    <annotation name="VERSION" value="1.0.1"     keep="true"/>
+    <annotation name="VERSION" value="1.0.2"     keep="true"/>
     <annotation name="SERVER_VERSION" value="7.6.100"     keep="true"/>
     <annotation name="COLUMNAR" value="true"     keep="true"/>
   </project>
