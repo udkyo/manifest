@@ -73,7 +73,7 @@
   <!-- Some are in goproj to facilitate eventual move to Go modules -->
   <project name="n1fty"                                                              path="goproj/src/github.com/couchbase/n1fty" groups="bsl" revision="trinity"/>
   <project name="go_json"                                                            path="goproj/src/github.com/couchbase/go_json" revision="trinity"/>
-  <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="trinity"/>
+  <project name="gomemcached"                                                        path="goproj/src/github.com/couchbase/gomemcached" groups="backup" revision="cypher"/>
   <project name="cbauth"                                                             path="goproj/src/github.com/couchbase/cbauth" groups="backup" revision="cypher"/>
   <project name="go-couchbase"                                                       path="goproj/src/github.com/couchbase/go-couchbase" groups="backup" revision="trinity"/>
   <project name="goutils"                                                            path="goproj/src/github.com/couchbase/goutils" groups="bsl" revision="trinity"/>
