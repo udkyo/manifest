@@ -16,8 +16,8 @@
   <remove-project name="build"/>
   <project name="build" path="cbbuild" groups="notdefault,build" revision="2beb97fb2e69a8f661d27821e77282dd1426d26a">
     <annotation name="VERSION" value="1.0.3"     keep="true"/>
-    <annotation name="SERVER_VERSION" value="7.6.3"     keep="true"/>
-    <annotation name="SERVER_BLD_NUM" value="4136"     keep="true"/>
+    <annotation name="SERVER_VERSION" value="7.6.4"     keep="true"/>
+    <annotation name="SERVER_BLD_NUM" value="5001"     keep="true"/>
     <annotation name="SERVER_RELEASE" value="trinity"     keep="true"/>
     <annotation name="COLUMNAR" value="true"     keep="true"/>
   </project>
