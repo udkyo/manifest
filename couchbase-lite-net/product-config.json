@@ -1,7 +1,7 @@
 {
     "manifests": {
-        "couchbase-lite-net/boron.xml": {
-            "release_name": "Couchbase Lite Net - Boron",
+        "couchbase-lite-net/master.xml": {
+            "release_name": "Couchbase Lite Net - master branch",
             "production": true,
             "interval": 120,
             "restricted": false,
@@ -10,8 +10,8 @@
             "trigger_blackduck": true,
             "do-build": true
         },
-        "couchbase-lite-net/beryllium.xml": {
-            "release_name": "Couchbase Lite Net - Beryllium",
+        "couchbase-lite-net/3.2.xml": {
+            "release_name": "Couchbase Lite Net - 3.2",
             "production": true,
             "interval": 120,
             "restricted": false,
