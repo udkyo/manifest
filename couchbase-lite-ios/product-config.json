@@ -1,7 +1,7 @@
 {
     "manifests": {
-        "couchbase-lite-ios/boron.xml": {
-            "release_name": "Couchbase Lite iOS - Boron",
+        "couchbase-lite-ios/master.xml": {
+            "release_name": "Couchbase Lite iOS - master branch",
             "production": true,
             "interval": 90,
             "restricted": false,
@@ -14,8 +14,8 @@
                 "couchbase-lite-ios"
             ]
         },
-        "couchbase-lite-ios/beryllium.xml": {
-            "release_name": "Couchbase Lite iOS - Beryllium",
+        "couchbase-lite-ios/3.2.xml": {
+            "release_name": "Couchbase Lite iOS - 3.2",
             "production": true,
             "interval": 240,
             "restricted": false,
