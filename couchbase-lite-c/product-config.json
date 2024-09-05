@@ -1,7 +1,7 @@
 {
     "manifests": {
-      "couchbase-lite-c/boron.xml": {
-        "release_name": "Couchbase Lite C - Boron",
+      "couchbase-lite-c/master.xml": {
+        "release_name": "Couchbase Lite C - master branch",
         "production": true,
         "interval": 120,
         "restricted": false,
@@ -10,8 +10,8 @@
         "trigger_blackduck": true,
         "module_projects": ["couchbase-lite-c", "couchbase-lite-c-ee"]
       },
-      "couchbase-lite-c/beryllium.xml": {
-        "release_name": "Couchbase Lite C - Beryllium",
+      "couchbase-lite-c/3.2.xml": {
+        "release_name": "Couchbase Lite C - 3.2",
         "production": true,
         "interval": 120,
         "restricted": false,
