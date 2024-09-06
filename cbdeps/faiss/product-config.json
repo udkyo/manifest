@@ -7,7 +7,8 @@
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "cbdeps-build",
             "jenkins_job_parameters": {
-                "AUTO_PUBLISH": true
+                "AUTO_PUBLISH": true,
+                "PROFILES": "-generic -avx2"
             },
             "platforms": [ "linux",
                         "linux:aarch64",
@@ -20,11 +21,13 @@
             "keep_git": true
         },
         "cbdeps/faiss/unstable.xml": {
+            "release": "unstable",
             "restricted": false,
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "cbdeps-build",
             "jenkins_job_parameters": {
-                "AUTO_PUBLISH": true
+                "AUTO_PUBLISH": true,
+                "PROFILES": "-generic -avx2"
             },
             "platforms": [ "linux",
                         "linux:aarch64",
@@ -32,9 +35,9 @@
                         "macos:arm64",
                         "windows_msvc2022" ],
             "do-build": true,
+            "start_build": 50000,
             "interval": 120,
             "ignore_projects": [ "build-tools" ],
-            "toy-build": true,
             "keep_git": true
         }
     }
