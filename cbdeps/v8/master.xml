@@ -1,50 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
 	<remote name="v8" fetch="https://chromium.googlesource.com/v8/"></remote>
-	<remote name="github.com-tc39" fetch="https://chromium.googlesource.com/external/github.com/tc39/"></remote>
-	<remote name="deps-third_party" fetch="https://chromium.googlesource.com/v8/deps/third_party/"></remote>
-	<remote name="src-tools" fetch="https://chromium.googlesource.com/chromium/src/tools/"></remote>
 	<remote name="chromium-src" fetch="https://chromium.googlesource.com/chromium/src/"></remote>
+	<remote name="src-tools" fetch="https://chromium.googlesource.com/chromium/src/tools/"></remote>
+	<remote name="deps-third_party" fetch="https://chromium.googlesource.com/v8/deps/third_party/"></remote>
+	<remote name="github.com-tc39" fetch="https://chromium.googlesource.com/external/github.com/tc39/"></remote>
+	<remote name="github.com-fastfloat" fetch="https://chromium.googlesource.com/external/github.com/fastfloat/"></remote>
+	<remote name="github.com-jk-jeon" fetch="https://chromium.googlesource.com/external/github.com/jk-jeon/"></remote>
 	<remote name="src-third_party" fetch="https://chromium.googlesource.com/chromium/src/third_party/"></remote>
-	<remote name="llvm-llvm-project" fetch="https://chromium.googlesource.com/external/github.com/llvm/llvm-project/"></remote>
-	<remote name="github.com-google" fetch="https://chromium.googlesource.com/external/github.com/google/"></remote>
-	<remote name="client-libs" fetch="https://chromium.googlesource.com/infra/luci/luci-py/client/libs/"></remote>
-	<remote name="chromium-tools" fetch="https://chromium.googlesource.com/chromium/tools/"></remote>
-	<remote name="clang-tools" fetch="https://chromium.googlesource.com/external/github.com/llvm/llvm-project/clang/tools/"></remote>
-	<remote name="chromium-deps" fetch="https://chromium.googlesource.com/chromium/deps/"></remote>
 	<remote name="platform-external" fetch="https://android.googlesource.com/platform/external/"></remote>
 	<remote name="github.com-open-source-parsers" fetch="https://chromium.googlesource.com/external/github.com/open-source-parsers/"></remote>
-	<remote name="base-trace_event" fetch="https://chromium.googlesource.com/chromium/src/base/trace_event/"></remote>
+	<remote name="llvm-llvm-project" fetch="https://chromium.googlesource.com/external/github.com/llvm/llvm-project/"></remote>
+	<remote name="clang-tools" fetch="https://chromium.googlesource.com/external/github.com/llvm/llvm-project/clang/tools/"></remote>
+	<remote name="github.com-google" fetch="https://chromium.googlesource.com/external/github.com/google/"></remote>
+	<remote name="client-libs" fetch="https://chromium.googlesource.com/infra/luci/luci-py/client/libs/"></remote>
+	<remote name="base-allocator" fetch="https://chromium.googlesource.com/chromium/src/base/allocator/"></remote>
+	<remote name="chromium-tools" fetch="https://chromium.googlesource.com/chromium/tools/"></remote>
+	<remote name="github.com-Maratyszcza" fetch="https://chromium.googlesource.com/external/github.com/Maratyszcza/"></remote>
+	<remote name="chromium-deps" fetch="https://chromium.googlesource.com/chromium/deps/"></remote>
 	<remote name="gn.googlesource.com" fetch="https://gn.googlesource.com/"></remote>
 	<remote name="couchbase" fetch="https://github.com/couchbase/"></remote>
-	<project name="v8" path="v8" revision="10e031124843c5b5b0b43b9a98f3cd6efa5f2de4" remote="v8"></project>
-	<project name="test262" path="v8/test/test262/data" revision="873f2604789e40f18e3e4dffd5a7bd6c4bed245f" remote="github.com-tc39"></project>
-	<project name="benchmarks" path="v8/test/benchmarks/data" revision="05d7188267b4560491ff9155c5ee13e207ecd65f" remote="deps-third_party"></project>
+	<project name="v8" path="v8" revision="6b9949e026c13e4250ee5e68cacc74bfe4d97536" remote="v8"></project>
+	<project name="buildtools" path="v8/buildtools" revision="16b1d7d539c0ea4a367bc4860f9002a0bb6c790e" remote="chromium-src"></project>
+	<project name="clang" path="v8/tools/clang" revision="f34259841dce41f675f3626d5c68d8d78d40fdb9" remote="src-tools"></project>
+	<project name="protoc_wrapper" path="v8/tools/protoc_wrapper" revision="3438d4183bfc7c0d6850e8b970204cc8189f0323" remote="src-tools"></project>
+	<project name="rust" path="v8/tools/rust" revision="fa1df48579a1f8af4ddafd9a65705bf0b40e5186" remote="src-tools"></project>
 	<project name="mozilla-tests" path="v8/test/mozilla/data" revision="f6c578a10ea707b1a8ab0b88943fe5115ce2b9be" remote="deps-third_party"></project>
-	<project name="clang" path="v8/tools/clang" revision="90bafacea8b63686eb658a8249a9f719e0df9981" remote="src-tools"></project>
-	<project name="buildtools" path="v8/buildtools" revision="170c2eb9732fa3a93b33c89542589420442f19b3" remote="chromium-src"></project>
-	<project name="abseil-cpp" path="v8/third_party/abseil-cpp" revision="0764ad493e54a79c7e3e02fc3412ef55b4835b9e" remote="src-third_party"></project>
-	<project name="libcxx" path="v8/third_party/libc++/src" revision="dba32e9eac193da3ced542421017c5a0de5ef1f6" remote="llvm-llvm-project"></project>
-	<project name="markupsafe" path="v8/third_party/markupsafe" revision="006709ba3ed87660a17bd4548c45663628f5ed85" remote="src-third_party"></project>
-	<project name="instrumented_libraries" path="v8/third_party/instrumented_libraries" revision="0011c28c8d35fc5093bb29631d05428932cd1206" remote="src-third_party"></project>
-	<project name="protobuf" path="v8/third_party/protobuf" revision="6a59a2ad1f61d9696092f79b6d74368b4d7970a3" remote="github.com-google"></project>
-	<project name="logdog" path="v8/third_party/logdog/logdog" revision="0b2078a90f7a638d576b3a7c407d136f2fb62399" remote="client-libs"></project>
-	<project name="jinja2" path="v8/third_party/jinja2" revision="515dd10de9bf63040045902a4a310d2ba25213a0" remote="src-third_party"></project>
-	<project name="depot_tools" path="v8/third_party/depot_tools" revision="081bca8cb31b7e96e663806b2493bce10dbb42f0" remote="chromium-tools"></project>
-	<project name="benchmark" path="v8/third_party/google_benchmark/src" revision="b177433f3ee2513b1075140c723d73ab8901790f" remote="github.com-google"></project>
-	<project name="googletest" path="v8/third_party/googletest/src" revision="af29db7ec28d6df1c7f0f745186884091e602e07" remote="github.com-google"></project>
-	<project name="libunwind" path="v8/third_party/libunwind/src" revision="278e5fbafc5b1707a5c4d09c3fc351cd4aa1630a" remote="llvm-llvm-project"></project>
-	<project name="zlib" path="v8/third_party/zlib" revision="dd5fc1316c9bfe87091c4f418e427633590a84a4" remote="src-third_party"></project>
-	<project name="libcxxabi" path="v8/third_party/libc++abi/src" revision="4cb5c2cefedc025433f81735bacbc0f773fdcd8f" remote="llvm-llvm-project"></project>
-	<project name="clang-format" path="v8/third_party/clang-format/script" revision="e5337933f2951cacd3aeacd238ce4578163ca0b9" remote="clang-tools"></project>
-	<project name="icu" path="v8/third_party/icu" revision="a622de35ac311c5ad390a7af80724634e5dc61ed" remote="chromium-deps"></project>
-	<project name="perfetto" path="v8/third_party/perfetto" revision="446adf5b7bb431d42838cb0302b27311fa4331cd" remote="platform-external"></project>
+	<project name="benchmarks" path="v8/test/benchmarks/data" revision="05d7188267b4560491ff9155c5ee13e207ecd65f" remote="deps-third_party"></project>
+	<project name="test262" path="v8/test/test262/data" revision="7a2273abd256cc8713f3394d42e55da1feca7dee" remote="github.com-tc39"></project>
+	<project name="fast_float" path="v8/third_party/fast_float/src" revision="cb1d42aaa1e14b09e1452cfdef373d051b8c02a4" remote="github.com-fastfloat"></project>
+	<project name="dragonbox" path="v8/third_party/dragonbox/src" revision="6c7c925b571d54486b9ffae8d9d18a822801cbda" remote="github.com-jk-jeon"></project>
+	<project name="markupsafe" path="v8/third_party/markupsafe" revision="4256084ae14175d38a3ff7d739dca83ae49ccec6" remote="src-third_party"></project>
+	<project name="perfetto" path="v8/third_party/perfetto" revision="40b529923598b739b2892a536a7692eedbed5685" remote="platform-external"></project>
 	<project name="jsoncpp" path="v8/third_party/jsoncpp/source" revision="42e892d96e47b1f6e29844cc705e148ec4856448" remote="github.com-open-source-parsers"></project>
-	<project name="build" path="v8/build" revision="9b8bc79c291c01ddcdb0383ace9316e3dcccce2f" remote="chromium-src"></project>
-	<project name="common" path="v8/base/trace_event/common" revision="29ac73db520575590c3aceb0a6f1f58dda8934f6" remote="base-trace_event"></project>
+	<project name="abseil-cpp" path="v8/third_party/abseil-cpp" revision="1e18dc54a045a632de52d420e9636072662841b4" remote="src-third_party"></project>
+	<project name="jinja2" path="v8/third_party/jinja2" revision="c3027d884967773057bf74b957e3fea87e5df4d7" remote="src-third_party"></project>
+	<project name="simdutf" path="v8/third_party/simdutf" revision="c6c377dbb834a65fbea1423a670d82ecc2d576d2" remote="src-third_party"></project>
+	<project name="libcxx" path="v8/third_party/libc++/src" revision="6f8fe913d64254ab2231e0e98d2b6b5650ef4917" remote="llvm-llvm-project"></project>
+	<project name="clang-format" path="v8/third_party/clang-format/script" revision="37f6e68a107df43b7d7e044fd36a13cbae3413f2" remote="clang-tools"></project>
+	<project name="highway" path="v8/third_party/highway/src" revision="00fe003dac355b979f36157f9407c7c46448958e" remote="github.com-google"></project>
+	<project name="rust" path="v8/third_party/rust" revision="5de5e7b6ba25f342b6123d09bc2720211fc88572" remote="src-third_party"></project>
+	<project name="logdog" path="v8/third_party/logdog/logdog" revision="0b2078a90f7a638d576b3a7c407d136f2fb62399" remote="client-libs"></project>
+	<project name="fuzztest" path="v8/third_party/fuzztest" revision="b3c754b19ad7a123bc983c1c12c4076d542f0858" remote="src-third_party"></project>
+	<project name="fuzztest" path="v8/third_party/fuzztest/src" revision="7bab06ff5fbbf8b8cce05a8661369dc2e11cde66" remote="github.com-google"></project>
+	<project name="zlib" path="v8/third_party/zlib" revision="363a126ed293970f3df97ee5f760cba29a29e193" remote="src-third_party"></project>
+	<project name="libcxxabi" path="v8/third_party/libc++abi/src" revision="a6c815c69d55ec59d020abde636754d120b402ad" remote="llvm-llvm-project"></project>
+	<project name="re2" path="v8/third_party/re2/src" revision="85c7c0fb1163b0bd83a7951f5a205ee7b489e33e" remote="github.com-google"></project>
+	<project name="partition_allocator" path="v8/third_party/partition_alloc" revision="356065b030e6194a732705e86a11248db2728786" remote="base-allocator"></project>
+	<project name="libc" path="v8/third_party/llvm-libc/src" revision="3d02389abeb19c6e871de64dd04ec3c4412c2cbc" remote="llvm-llvm-project"></project>
+	<project name="libunwind" path="v8/third_party/libunwind/src" revision="84c5262b57147e9934c0a8f2302d989b44ec7093" remote="llvm-llvm-project"></project>
+	<project name="depot_tools" path="v8/third_party/depot_tools" revision="b66d188607bca258f277b7a4410c7302c48b8193" remote="chromium-tools"></project>
+	<project name="googletest" path="v8/third_party/googletest/src" revision="373af2e3df71599b87a40ce0e37164523849166b" remote="github.com-google"></project>
+	<project name="FP16" path="v8/third_party/fp16/src" revision="0a92994d729ff76a58f692d3028ca1b64b145d91" remote="github.com-Maratyszcza"></project>
+	<project name="google_benchmark" path="v8/third_party/google_benchmark_chrome" revision="d6e7f141ed7c93a66890f3750ab634b8b52057a5" remote="src-third_party"></project>
+	<project name="benchmark" path="v8/third_party/google_benchmark_chrome/src" revision="761305ec3b33abf30e08d50eb829e19a802581cc" remote="github.com-google"></project>
+	<project name="protobuf" path="v8/third_party/protobuf" revision="abdd0b541c6d7864c3d763f7de30c27e3b5d0b54" remote="src-third_party"></project>
+	<project name="icu" path="v8/third_party/icu" revision="1b2e3e8a421efae36141a7b932b41e315b089af8" remote="chromium-deps"></project>
+	<project name="build" path="v8/build" revision="5f872b88fac8c0bfb0ee8e1ca384aa26270be070" remote="chromium-src"></project>
 	<project name="gn" path="gn" revision="main" remote="gn.googlesource.com"></project>
 	<project name="build-tools" path="build-tools" revision="master" remote="couchbase"></project>
 	<project name="build" path="cbbuild" revision="ca92a4864bbcc878fb7b00f3c94c2c534c7ebd1a" remote="couchbase">
-		<annotation name="VERSION" value="12.1.285.26" keep="true"></annotation>
+		<annotation name="VERSION" value="14.1.26" keep="true"></annotation>
 	</project>
+	<gcs_dependencies>
+		<gcs_dependency path="third_party/llvm-build/Release+Asserts" bucket="chromium-browser-clang">
+			<object name="Linux_x64/clang-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="b448a78b42740352a37b458115a9482f213097bbf28f1f839e72cab829bdfa6d" size="55133120" generation="1753983011666559" condition='host_os == "linux"'></object>
+			<object name="Linux_x64/clang-tidy-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="98da47515c1f996bdf884487afff4cca0bbbd6a23347b5fc9442ba4210ca66a2" size="13659920" generation="1753983011671003" condition='host_os == "linux" and checkout_clang_tidy'></object>
+			<object name="Linux_x64/clangd-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="e133b8b139770ab170832e1fe68d03453bec0315dbc53ffa6928a61d0f348d41" size="13852732" generation="1753983011663674" condition='host_os == "linux" and checkout_clangd'></object>
+			<object name="Linux_x64/llvm-code-coverage-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="2a61faffe37a31330cd825b567c4a422724b8d35426d79d4ac265f07ab8ecedf" size="2314532" generation="1753983011700114" condition='host_os == "linux" and checkout_clang_coverage_tools'></object>
+			<object name="Linux_x64/llvmobjdump-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="1e4be8737102bff65c33e37867d28960b297bdd718fb43d544e5a977aa73e58e" size="5675780" generation="1753983011751371" condition='(checkout_linux or checkout_mac or checkout_android) and host_os == "linux"'></object>
+			<object name="Mac/clang-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="0cfd4ac1d5c922f3868b7d0f59731596c9f7651541a4e2cd32fcae91cb707389" size="52423592" generation="1753983013393204" condition='host_os == "mac" and host_cpu == "x64"'></object>
+			<object name="Mac/clang-mac-runtime-library-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="6267cf2fdd697c4f5ff60c1ea949dcde2c5638c86c254e410fd8093d8ba88854" size="995072" generation="1753983021140243" condition='checkout_mac and not host_os == "mac"'></object>
+			<object name="Mac/clang-tidy-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="cb6aeb04f059f1d504efb4a8e018ce3dd6e71c9ca3b37e07974c1bce9a473444" size="13738952" generation="1753983013426743" condition='host_os == "mac" and host_cpu == "x64" and checkout_clang_tidy'></object>
+			<object name="Mac/clangd-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="d4bd53a928a682b68d9f268ef2a7e5fc098090a051944bd3bd293f34920bfa1a" size="15157732" generation="1753983013465928" condition='host_os == "mac" and host_cpu == "x64" and checkout_clangd'></object>
+			<object name="Mac/llvm-code-coverage-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="a3aa1c0792baa8aba7e91fb9d72ec80c2fe6bb88ced406660f23e5b93c40e88c" size="2282708" generation="1753983013526049" condition='host_os == "mac" and host_cpu == "x64" and checkout_clang_coverage_tools'></object>
+			<object name="Mac/llvmobjdump-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="3ee5d49e92ad6cd1e532118f0713532962d6ef14aa119f81a893b72c95046ac6" size="5484504" generation="1753983013468350" condition='host_os == "mac" and host_cpu == "x64"'></object>
+			<object name="Mac_arm64/clang-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="afed7bb50e1e7f25472f3a43e942a774c3ef5dcc31a1a9cf817224aec411f4fb" size="44337520" generation="1753983022809149" condition='host_os == "mac" and host_cpu == "arm64"'></object>
+			<object name="Mac_arm64/clang-tidy-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="51e2940861747013b11833da69821364552776e29be54287e7d8b299c35357de" size="11873540" generation="1753983022864078" condition='host_os == "mac" and host_cpu == "arm64" and checkout_clang_tidy'></object>
+			<object name="Mac_arm64/clangd-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="3344e7ed3d42be6c827502e2c4addbae42dfbe9699e5e391649fdf53ce3d16d7" size="12136100" generation="1753983022893296" condition='host_os == "mac" and host_cpu == "arm64" and checkout_clangd'></object>
+			<object name="Mac_arm64/llvm-code-coverage-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="59709d0a6bc2f1930c0971b4f0cf4d8932d1321621cff570419342ee396cc43e" size="1989132" generation="1753983022902753" condition='host_os == "mac" and host_cpu == "arm64" and checkout_clang_coverage_tools'></object>
+			<object name="Mac_arm64/llvmobjdump-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="76f2d491e7535e6051f3a6bc4a6948602a8e4a231882305e13c9adb9ce6af125" size="5313688" generation="1753983022869504" condition='host_os == "mac" and host_cpu == "arm64"'></object>
+			<object name="Win/clang-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="418c186740c926b9ba85c173540ffa3ed459e3fab06ee45fe524f9b480c2a7a6" size="47378940" generation="1753983032535097" condition='host_os == "win"'></object>
+			<object name="Win/clang-tidy-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="0865195b3efdaab630f9acb06d4a4e414813752b28f7511dddf3cd69e38df4a0" size="13488148" generation="1753983032729035" condition='host_os == "win" and checkout_clang_tidy'></object>
+			<object name="Win/clang-win-runtime-library-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="2a7678deda052620fa8aff586922d1607d1e39e51726dee9e9325a668c495df4" size="2506544" generation="1753983040294404" condition='checkout_win and not host_os == "win"'></object>
+			<object name="Win/clangd-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="79a70ce9405ed33f4dfddb4d3be82d827964fb79b898b82f892d9855d5dd3195" size="13904768" generation="1753983032665184" condition='host_os == "win" and checkout_clangd'></object>
+			<object name="Win/llvm-code-coverage-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="b57dddb09757df2bb2bfd83e57a87c3f1da72a700afb66e853f60fe0102e1ba3" size="2384644" generation="1753983032706862" condition='host_os == "win" and checkout_clang_coverage_tools'></object>
+			<object name="Win/llvmobjdump-llvmorg-21-init-16348-gbd809ffb-15.tar.xz" sha256="4fd02b442dcb5cc8f4a80e4c8e6aeb972dc0163a8ee79b3ce3416d9cc24cb137" size="5654156" generation="1753983032704697" condition='(checkout_linux or checkout_mac or checkout_android) and host_os == "win"'></object>
+		</gcs_dependency>
+		<gcs_dependency path="third_party/rust-toolchain" bucket="chromium-browser-clang">
+			<object name="Linux_x64/rust-toolchain-22be76b7e259f27bf3e55eb931f354cd8b69d55f-3-llvmorg-21-init-16348-gbd809ffb.tar.xz" sha256="5f8e9ad847e5bf586e0de1bb563c9a49e05ad36edfad5037900d7510004fc577" size="138573136" generation="1750840933611077" condition='host_os == "linux"'></object>
+			<object name="Mac/rust-toolchain-22be76b7e259f27bf3e55eb931f354cd8b69d55f-3-llvmorg-21-init-16348-gbd809ffb.tar.xz" sha256="357db812ca0a518ef0fc4394ddc859d68f23384931294412b7424bb3aabb3c09" size="132392604" generation="1750840935469331" condition='host_os == "mac" and host_cpu == "x64"'></object>
+			<object name="Mac_arm64/rust-toolchain-22be76b7e259f27bf3e55eb931f354cd8b69d55f-3-llvmorg-21-init-16348-gbd809ffb.tar.xz" sha256="d3cb60c6388e86d3d1a0c46c539f1ea0ed1ff48cf907dc21b2cb5ff441b23c03" size="120354192" generation="1750840937280735" condition='host_os == "mac" and host_cpu == "arm64"'></object>
+			<object name="Win/rust-toolchain-22be76b7e259f27bf3e55eb931f354cd8b69d55f-3-llvmorg-21-init-16348-gbd809ffb.tar.xz" sha256="7e804f3a8bef4c8ca32d3368ca7564e5c12b684899453d9a522bdd05b1f1df7b" size="195000356" generation="1750840939064273" condition='host_os == "win"'></object>
+		</gcs_dependency>
+	</gcs_dependencies>
 </manifest>
