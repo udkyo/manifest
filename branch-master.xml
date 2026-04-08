@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="couchbase"     fetch="https://github.com/couchbase/"         review="review.couchbase.org" />
-  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"    review="review.couchbase.org" />
-  <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/"     review="review.couchbase.org" />
-  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/"     review="review.couchbase.org" />
-  <remote name="blevesearch"   fetch="https://github.com/blevesearch/" />
+  <remote name="udkyo"          fetch="https://github.com/udkyo/"/>
+  <remote name="couchbase"      fetch="https://github.com/couchbase/"     review="review.couchbase.org" />
+  <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/"   review="review.couchbase.org" />
+  <remote name="couchbasedeps"  fetch="https://github.com/couchbasedeps/" review="review.couchbase.org" />
+  <remote name="couchbaselabs"  fetch="https://github.com/couchbaselabs/" review="review.couchbase.org" />
+  <remote name="blevesearch"    fetch="https://github.com/blevesearch/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -20,7 +21,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couchbase-cli" groups="kv"/>
   <project name="couchdb"/>
-  <project name="couchstore" groups="kv"/>
+  <project name="couchstore" remote="udkyo" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
